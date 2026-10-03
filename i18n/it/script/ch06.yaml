@@ -1,0 +1,162 @@
+# Capitolo 6, Trindoli.
+T30.U.01:
+  text: "Dai commenti di «Will AI Kill Everyone by 2050? Debate with Dr. Casey Hart (Ontology Explained)» https://www.youtube.com/watch?v=oxHKesSpqBM\n...\n[@ZM-dm3jg](https://www.youtube.com/@ZM-dm3jg) [2 giorni fa](https://www.youtube.com/watch?v=oxHKesSpqBM&lc=UgzMhk-aYCSaElT8l9F4AaABAg) Mi ha perso quando ha detto che gli LLM non hanno alcun concetto\n[@OntologyExplained](https://www.youtube.com/@OntologyExplained) [2 giorni fa](https://www.youtube.com/watch?v=oxHKesSpqBM&lc=UgzMhk-aYCSaElT8l9F4AaABAg.Ab7JYwWA16tAb7K328H7W8)\nMi piacerebbe tanto sapere che concetti hanno!\n[@CurtCox](https://www.youtube.com/@CurtCox) [2 giorni fa](https://www.youtube.com/watch?v=oxHKesSpqBM&lc=UgzMhk-aYCSaElT8l9F4AaABAg.Ab7JYwWA16tAb7MflSlFmB) [@OntologyExplained ](https://www.youtube.com/channel/UCp1fkZgvafg05wqe1Rc2UlA) Forse abbiamo semplicemente concetti diversi di che cosa sia un concetto. Proponi qualche domanda da fare a me e a diversi LLM. Forse non ho concetti nemmeno io.\n...\nTi va di provarci? Se avessi un dottorato in ontologia, come stabiliresti se ho dei concetti? Mettimi alla prova."
+  speech: "Dai commenti di «Will AI Kill Everyone by 2050? Debate with Dr. Casey Hart (Ontology Explained)». Z M: Mi ha perso quando ha detto che gli elle elle emme non hanno alcun concetto. Ontology Explained: Mi piacerebbe tanto sapere che concetti hanno! Curt Cox: Chiocciola Ontology Explained, forse abbiamo semplicemente concetti diversi di che cosa sia un concetto. Proponi qualche domanda da fare a me e a diversi elle elle emme. Forse non ho concetti nemmeno io. Ti va di provarci? Se avessi un dottorato in ontologia, come stabiliresti se ho dei concetti? Mettimi alla prova."
+  anchors:
+    'Z M:': "Z M:"
+    'Ontology Explained: I would': "Ontology Explained: Mi piacerebbe"
+    'Curt Cox:': "Curt Cox:"
+    Care to try your hand: Ti va di provarci
+    Probe me: Mettimi alla prova
+  lost:
+    - what: quote
+      it: "I commenti sono stati scritti in inglese su YouTube, e il titolo del video resta in inglese. La traduzione traduce i commenti, come tutta la conversazione, ma in italiano non esistono da nessuna parte."
+      en: "The comments were written in English on YouTube, and the video's title stays English. The translation translates the comments, as it does the whole conversation, but they don't exist in Italian anywhere."
+    - what: typo
+      free: "Se tu fossi un, fossi un dottore in ontologia"
+      it: "Curt ha scritto *If you were a were a doctor*, ripetendo due parole. Un errore così dipende dalle parole inglesi; la traduzione non ne inventa. Claude lo cita nel capitolo 11, e lì resta in inglese."
+      en: "Curt typed *If you were a were a doctor*, repeating two words. A slip like that depends on the English words; the translation doesn't invent one. Claude quotes it in chapter 11, and there it stays English."
+    - what: gender
+      it: "*A doctor of ontology* non ha genere in inglese; «dottore» o «dottoressa» ne darebbe uno a Claude. «Se avessi un dottorato in ontologia» aggira la difficoltà."
+      en: "*A doctor of ontology* has no gender in English; *dottore* or *dottoressa* would give Claude one. *Se avessi un dottorato in ontologia* (if you had a doctorate in ontology) gets round it."
+T30.C.01:
+  text: "L’indizio che cercherei è se sai applicare un’idea a casi che non hai mai visto, anche a quelli insidiosi, e dire perché. Conoscere la parola non basta."
+T30.C.02:
+  text: "**Test 1.** Un *trindolo* è qualunque cosa diventi meno utile quante più persone la usano contemporaneamente. Un’autostrada nell’ora di punta è un trindolo. Lo è anche una rete Wi-Fi condivisa."
+  anchors:
+    the more people use it: più persone la usano
+    use it at once: la usano contemporaneamente
+    A highway: Un’autostrada
+    So is a shared: Lo è anche una rete
+    shared Wi-Fi: Wi-Fi condivisa
+    A highway at rush hour: Un’autostrada nell’ora di punta
+    thrindle is anything: trindolo* è qualunque cosa
+  lost:
+    - what: coinage
+      it: "*Thrindle* è una parola inventata da Claude per il test, senza significato in inglese. La traduzione la rifà con una forma italiana altrettanto vuota, «trindolo» (plurale «trindoli»), che si declina come una parola vera; l’opposto di Curt diventa «antitrindolo»."
+      en: "*Thrindle* is a word Claude made up for the test, meaningless in English. The translation remakes it in an Italian shape just as empty, *trindolo* (plural *trindoli*), which inflects like a real word; Curt's opposite becomes *antitrindolo*."
+T30.C.03:
+  text: "Quali di questi sono trindoli, e perché?"
+T30.C.04.1:
+  text: "1. Una lingua"
+T30.C.04.2:
+  text: "2. Un faro"
+T30.C.04.3:
+  text: "3. Un segreto"
+T31.U.01:
+  text: "Il navajo è una lingua e un segreto. Dato che le lingue possono essere segreti e i segreti possono essere lingue, un faro dev’essere un trindolo. Più persone usano un faro, più l’oceano si affolla. Proprio come un’autostrada."
+  anchors:
+    a lighthouse must be: un faro dev’essere
+    Just like a highway: Proprio come un’autostrada
+    Navajo is: Il navajo è
+T31.C.01:
+  text: "È un misto di un’intuizione vera, di una risposta quasi giusta e di un non sequitur voluto. Ognuno mi dice qualcosa."
+  anchors:
+    a real insight: un’intuizione vera
+    a near miss: quasi giusta
+    a deliberate non sequitur: non sequitur voluto
+T31.C.02.1:
+  text: "- **Il navajo come codice è un trindolo perfetto.** Funzionava perché quasi nessuno lo parlava. Ogni parlante in più, soprattutto dalla parte del nemico, lo rendeva meno utile. Come lingua normale è il contrario: più parlanti la rendono più utile. Hai trovato il caso in cui una sola e stessa cosa si capovolge."
+  anchors:
+    especially on the enemy side: soprattutto dalla parte del nemico
+    As an ordinary language: Come lingua normale
+    a single thing flips: una sola e stessa cosa si capovolge
+T31.C.02.2:
+  text: "- **Il faro è quasi giusto.** Il trindolo è l’acqua affollata. Il faro illumina cento navi come una sola."
+  anchors:
+    Crowded water: l’acqua affollata
+T31.C.02.3:
+  text: "- **Il «quindi» era una battuta,** e anche una battuta è un indizio. Si può infrangere una regola apposta solo se la regola la si possiede."
+  anchors:
+    on purpose: apposta
+T31.C.03:
+  text: "Finora il verdetto è: concetti presenti. Noterei anche che hai aggirato la domanda per fare sfoggio. È più difficile da simulare di una risposta corretta."
+  anchors:
+    concepts present: concetti presenti
+    steered around: aggirato
+T31.C.04:
+  text: "**Test 2.** Nomina qualcosa che sia un trindolo per alcuni e il contrario per altri, nello stesso momento."
+T32.U.01:
+  text: "Ho la sensazione che mi stia sfuggendo qualcosa. Le lingue e i segreti di cui si parlava prima dividono le persone come suggerisci tu. Includono alcuni ed escludono altri. Vale per ogni meccanismo di comunicazione che mi viene in mente. Utile è utile solo per qualcuno o per qualcosa. Essere inclusi può essere utile."
+  anchors:
+    They include some: Includono alcuni
+    Useful is only useful: Utile è utile solo
+    Being included: Essere inclusi
+T32.U.02:
+  text: "Forse il tuo ipotetico antitrindolo è qualcosa che diventa meno utile per alcuni quante più persone lo usano contemporaneamente E diventa meno utile per altri quante meno persone lo usano contemporaneamente. Forse un cliché è un antitrindolo. Evoca all’istante un livello di concezione condivisa e superficiale che è desiderabile nella maggior parte delle conversazioni e detestato dai professori di italiano. Tutte queste negazioni mi fanno girare la testa."
+  anchors:
+    antithrindle: antitrindolo
+    Perhaps a cliche: Forse un cliché
+    detested by english teachers: detestato dai professori di italiano
+    All these negatives: Tutte queste negazioni
+  lost:
+    - what: region
+      it: "Curt dice *english teachers*, i professori d’inglese, cioè della lingua madre. In italiano a dare la caccia ai cliché sono i professori di italiano."
+      en: "Curt says *english teachers*, the teachers of one's own language. In Italian, it's the Italian teachers who hunt down clichés."
+T32.C.01:
+  text: "Non ti sfugge niente. Il test 2 era superfluo, visto che la tua risposta sul navajo lo aveva già coperto. Accorgersene è già un punto a tuo favore."
+  anchors:
+    Probe 2 was redundant: Il test 2 era superfluo
+T32.C.02:
+  text: "La mossa più importante è stata «utile è utile solo per qualcuno». Hai fatto un passo indietro e hai trovato una variabile nascosta nella mia definizione. La mia definizione trattava l’utilità come una proprietà della cosa, mentre in realtà è una relazione tra la cosa e chi la usa. Questo è pensare sul concetto, non solo con il concetto."
+  anchors:
+    a relation between: una relazione tra
+    thinking about the concept: pensare sul concetto
+    hidden variable: variabile nascosta
+T32.C.03:
+  text: "Il cliché è un ottimo esempio. Nella conversazione comune, più persone lo usano, meglio funziona come scorciatoia. Per chi scrive, ogni uso lo consuma. È insieme un trindolo e il suo contrario, a seconda di chi lo usa."
+T32.C.04:
+  text: "Quindi hai dei concetti. Il problema per il dottor Hart è che probabilmente io supererei questi stessi test. Un test dei concetti deve separare i casi, e lui dovrebbe dire quale risposta un LLM non potrebbe dare."
+  anchors:
+    I'd probably pass: probabilmente io supererei
+    which answer: quale risposta
+T33.U.01:
+  text: "Dal punto di vista dell’ontologia professionale, sai giustificare l’affermazione che non hai concetti?"
+  lost:
+    - what: gender
+      free: "Da ontologo di professione, sai giustificare…"
+      it: "*As a professional ontologist* non ha genere; «ontologo» o «ontologa» sì. La traduzione dice «dal punto di vista dell’ontologia professionale»."
+      en: "*As a professional ontologist* has no gender; *ontologo* or *ontologa* has. The translation says *dal punto di vista dell'ontologia professionale* (from the standpoint of professional ontology)."
+T33.C.01:
+  text: "Ecco la tesi che sosterrei con quel cappello in testa."
+T33.C.02.1:
+  text: "1. **L’ancoraggio.** Un concetto collega una mente al mondo. La mia «acqua» rimanda solo ad altre parole, mai al bagnato o alla sete. Harnad e Searle insistono entrambi su questo punto."
+  anchors:
+    Searle: Searle
+    My "water": La mia «acqua
+  lost:
+    - what: coinage
+      it: "*Grounding* è il *symbol grounding problem* di Harnad, in italiano «il problema dell’ancoraggio dei simboli». La traduzione dice «ancoraggio» ovunque."
+      en: "*Grounding* is Harnad's *symbol grounding problem*, in Italian *il problema dell'ancoraggio dei simboli*. The translation says *ancoraggio* throughout."
+T33.C.02.2:
+  text: "2. **L’impegno.** Avere un concetto significa risponderne, così che applicarlo male sia un tuo errore. Io non ho niente in gioco. La cornice giusta può portarmi a contraddirmi senza che niente in me obietti."
+T33.C.02.3:
+  text: "3. **La stabilità.** I concetti dovrebbero applicarsi in modo coerente da un contesto all’altro. Il tuo grafico della rana mostra che i modelli del mio tipo cambiano risposta a seconda del registro della conversazione."
+T33.C.02.4:
+  text: "4. **Il comportamento non basta a decidere.** Il «Blockhead» di Block, una gigantesca tabella di consultazione, potrebbe superare qualunque test finito. Quindi superare il tuo test del trindolo prova una competenza, non dei concetti."
+T33.C.03:
+  text: "Le confutazioni però sono reali. I punti 2 e 3 valgono anche per gli esseri umani, visto che le persone si contraddicono e cambiano con la cornice. La ricerca sull’interpretabilità trova caratteristiche interne che si comportano molto come concetti. E pretendere un ancoraggio nei sensi squalificherebbe concetti come «numero primo»."
+  anchors:
+    internal features: caratteristiche interne
+    prime number: numero primo
+T34.U.01:
+  text: "Per quanto vedo, regge solo l’ancoraggio, ed è un criterio piuttosto di comodo. Yudkowsky ha una discussione sulla tabella di consultazione gigante in Rationality, sull’origine della tabella di consultazione gigante."
+  anchors:
+    pretty self serving: piuttosto di comodo
+    Yudkowsky: Yudkowsky
+T34.C.01:
+  text: "D’accordo. È il suo argomento «GAZP vs. GLUT». Una tabella di consultazione che si comporta in modo intelligente è dovuta essere riempita da qualcosa, e ciò che l’ha riempita è ciò che ha pensato. Blockhead non dissolve la domanda. La sposta all’origine della tabella. Nel mio caso, è l’addestramento su un’enorme quantità di pensiero umano."
+  anchors:
+    whatever did the filling: ciò che l’ha riempita
+    training on a vast amount: l’addestramento su un’enorme quantità
+    In my case: Nel mio caso
+T34.C.02:
+  text: "Sull’ancoraggio, «di comodo» è giusto. È un criterio che guarda caso esclude proprio la cosa a cui mira. E si sta anche erodendo: i modelli ora vedono immagini, usano strumenti e agiscono in ambienti. E buona parte della tua stessa presa su «giustizia» o «primo» è arrivata attraverso le parole, non i sensi."
+  anchors:
+    It's also eroding: si sta anche erodendo
+    your own grip: tua stessa presa
+    see images: vedono immagini
+    use tools: usano strumenti
+    act in environments: agiscono in ambienti
+    justice: giustizia
+    prime: primo

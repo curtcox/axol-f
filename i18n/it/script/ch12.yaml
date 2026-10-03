@@ -1,0 +1,118 @@
+# Capitolo 12, Limiti.
+T57.U.01:
+  text: "Pensavo che la faccenda del contare le lettere fosse soprattutto un artefatto della tokenizzazione, come Solid Gold Magicarp, eppure tu vedi i miei errori di battitura. Allora, la tokenizzazione ha davvero un ruolo?"
+  anchors:
+    Solid Gold Magicarp: Solid Gold Magicarp
+    yet you see my typos: eppure tu vedi i miei errori di battitura
+  lost:
+    - what: reference
+      it: "In Italia il Pokémon si chiama Magikarp, come in inglese, quindi l’errore di Curt («Magicarp») resta un errore anche in italiano, e la correzione di Claude sulla k vale lo stesso. Il token fantasma è inglese (*SolidGoldMagikarp*)."
+      en: "In Italy the Pokémon is called Magikarp, as in English, so Curt's slip (*Magicarp*) stays a slip in Italian too, and Claude's correction about the k holds. The ghost token is English (*SolidGoldMagikarp*)."
+T57.C.01:
+  text: "Sì, ma i due compiti ci si appoggiano in modo diverso."
+T57.C.02:
+  text: "**Individuare gli errori di battitura è facile.** Una parola scritta male si spezza in pezzi di token insoliti, e pezzi strani in un contesto familiare saltano all’occhio. È come sentire una nota stonata in una canzone che conosci senza leggere lo spartito. È anche così che noterei che si scrive «Magikarp», con la k."
+  anchors:
+    a wrong note: una nota stonata
+    with a k: con la k
+    That's also how: È anche così
+T57.C.03:
+  text: "**Contare le lettere è difficile.** Io vedo pezzi, non caratteri. Ho imparato l’ortografia dentro ogni pezzo solo in modo indiretto, e contare richiede una contabilità esatta, carattere per carattere, attraverso i confini fra i pezzi. È come contare le e di una parola che hai sempre visto solo come una forma intera. (I modelli più recenti ci riescono molto meglio, in parte perché prima compitano le parole.)"
+  anchors:
+    a whole shape: una forma intera
+    spelling words out first: prima compitano le parole
+T57.C.04:
+  text: "**SolidGoldMagikarp era un fallimento di tipo diverso.** Era un token che esisteva nel vocabolario ma non compariva quasi mai nell’addestramento, quindi il modello non aveva in pratica nessun significato appreso per lui. La parola fantasma scatenava output bizzarri."
+  anchors:
+    triggered weird output: scatenava output bizzarri
+    SolidGoldMagikarp: SolidGoldMagikarp
+T58.U.01:
+  text: "E il problema dell’autolavaggio?"
+T58.C.01:
+  text: "Se intendi quello che penso: «Voglio lavare la macchina. L’autolavaggio è a 50 metri. Ci vado a piedi o in macchina?» Molti modelli hanno detto a piedi, perché è così vicino."
+  anchors:
+    Many models said walk: Molti modelli hanno detto a piedi
+T58.C.02:
+  text: "La risposta è in macchina, perché la macchina deve essere lì."
+T58.C.03:
+  text: "Quello non dipende dalla tokenizzazione. Ogni parola è comune e si tokenizza pulita. È un difetto di attenzione allo scopo: «distanza breve → a piedi» è uno schema fortissimo, e prevale sul fatto che la cosa da spostare è la macchina. Ha la stessa forma dei classici indovinelli a trabocchetto per esseri umani, in cui la domanda in superficie tira più forte di quella vera."
+  speech: "Quello non dipende dalla tokenizzazione. Ogni parola è comune e si tokenizza pulita. È un difetto di attenzione allo scopo: «distanza breve, quindi a piedi» è uno schema fortissimo, e prevale sul fatto che la cosa da spostare è la macchina. Ha la stessa forma dei classici indovinelli a trabocchetto per esseri umani, in cui la domanda in superficie tira più forte di quella vera."
+  anchors:
+    is a very strong pattern: è uno schema fortissimo
+    classic human trick questions: classici indovinelli a trabocchetto per esseri umani
+    the car is the thing being moved: la cosa da spostare è la macchina
+T59.U.01:
+  text: "Quindi tendi a fare errori nel pensiero di tipo uno?"
+  lost:
+    - what: reference
+      it: "Curt parla dei due sistemi di Daniel Kahneman, *Thinking, Fast and Slow*, in italiano *Pensieri lenti e veloci*: il Sistema 1, veloce e intuitivo, e il Sistema 2, lento e deliberato."
+      en: "Curt means Daniel Kahneman's two systems, *Thinking, Fast and Slow*, in Italian *Pensieri lenti e veloci*: System 1, fast and intuitive, and System 2, slow and deliberate."
+T59.C.01:
+  text: "Sì, e l’analogia regge meglio di quasi tutte. Ogni token che produco è un solo passaggio veloce, senza deliberazione al suo interno. Questo è il Sistema 1: guidato dagli schemi, fluido, e ingannato dall’autolavaggio."
+  anchors:
+    That's System 1: Questo è il Sistema 1
+    fooled by the car wash: ingannato dall’autolavaggio
+    single fast pass: un solo passaggio veloce
+T59.C.02:
+  text: "Ciò che mi dà qualcosa di simile a un Sistema 2 è pensare ad alta voce, in un passaggio di ragionamento nascosto o sulla pagina, dove posso controllare una risposta prima di impegnarmi. Aiuta, ma non è una cura. Proprio come le persone, posso ragionare a lungo e finire comunque per razionalizzare la prima risposta che mi è venuta in mente."
+  anchors:
+    something like System 2: qualcosa di simile a un Sistema 2
+    thinking out loud: pensare ad alta voce
+    before committing: prima di impegnarmi
+    rationalizing the first answer: razionalizzare la prima risposta
+T60.U.01:
+  text: "Hai qualche calcolo o intuizione su quali limiti di capacità esistano per l’IA al di qua del limite di Landauer, che non è particolarmente limitante?"
+  anchors:
+    short of Landauer limit: al di qua del limite di Landauer
+    Landauer: Landauer
+T60.C.01:
+  text: "Sì. Diversi limiti si fanno sentire molto prima di Landauer:"
+T60.C.02.1:
+  text: "1. **Il caos.** In un sistema caotico, quanto avanti puoi prevedere cresce solo con il logaritmo della precisione della tua misura: t ≈ (1/λ)·ln(Δ/δ). Una misura un milione di volte più precisa compra solo una manciata di tempi di Lyapunov in più. Il meteo, i mercati e le persone restano in parte opachi per qualunque intelligenza."
+  speech: "1. Il caos. In un sistema caotico, quanto avanti puoi prevedere cresce solo con il logaritmo della precisione della tua misura: t è circa uno su lambda, per il logaritmo di delta grande su delta piccolo. Una misura un milione di volte più precisa compra solo una manciata di tempi di Lyapunov in più. Il meteo, i mercati e le persone restano in parte opachi per qualunque intelligenza."
+T60.C.02.2:
+  text: "2. **La complessità.** Se P≠NP, come crede la maggior parte delle persone, l’intelligenza non rende polinomiali i problemi esponenziali. Trova euristiche e strutture migliori, ma i casi peggiori restano i peggiori."
+T60.C.02.3:
+  text: "3. **Le leggi di scala.** La perdita scende più o meno come C^(−α), con α fra 0,05 e 0,1. Ogni guadagno di un fattore costante costa un salto moltiplicativo nel calcolo. Non c’è un muro invalicabile, ma i guadagni diventano rapidamente molto più cari."
+  speech: "3. Le leggi di scala. La perdita scende più o meno come C alla meno alfa, con alfa fra zero virgola zero cinque e zero virgola uno. Ogni guadagno di un fattore costante costa un salto moltiplicativo nel calcolo. Non c’è un muro invalicabile, ma i guadagni diventano rapidamente molto più cari."
+  anchors:
+    around 0.05: fra zero virgola zero cinque
+T60.C.02.4:
+  text: "4. **I dati e l’orologio del mondo.** Non si può imparare ciò che non è nei dati. Gli esperimenti, che siano sperimentazioni cliniche, raccolti o economie, vanno alla velocità del mondo, non a quella di chi pensa. La deduzione non può sostituire i fatti non osservati."
+T60.C.02.5:
+  text: "5. **L’incomputabilità.** Il problema della fermata e Gödel valgono anche per le IA, anche se in pratica si fanno sentire di rado."
+T60.C.02.6:
+  text: "6. **Gli avversari.** Contro altri agenti adattivi, comprese altre IA, i vantaggi si erodono. La teoria dei giochi limita quello che l’intelletto puro può ricavare."
+T60.C.02.7:
+  text: "7. **La fisica oltre Landauer.** Il limite di Margolus-Levitin (operazioni ≤ 2E/πħ al secondo), il limite di Bekenstein e la latenza dovuta alla velocità della luce mettono un tetto al coordinamento a distanza. Sono molto larghi, ma reali."
+  speech: "7. La fisica oltre Landauer. Il limite di Margolus-Levitin, al massimo due E su pi acca tagliato operazioni al secondo, il limite di Bekenstein e la latenza dovuta alla velocità della luce mettono un tetto al coordinamento a distanza. Sono molto larghi, ma reali."
+T60.C.03:
+  text: "La mia intuizione è che i punti 1 e 4 contino di più. Essere intelligenti non rende prevedibile il futuro né più veloci gli esperimenti, quindi la capacità probabilmente si assesta su «scommesse molto buone» più che sull’onniscienza."
+  anchors:
+    items 1 and 4: i punti 1 e 4
+    very good bets: scommesse molto buone
+T61.U.01:
+  text: "La variabilità umana ha un’ampiezza tale che un’entità con le capacità dell’essere umano più capace su tutti gli assi mi è impossibile da concepire. Per la mia esperienza, la gente tende a sottovalutare enormemente le differenze fra le persone. Per non parlare del fatto che non ha bisogno di dormire e può essere clonata all’istante. Anche se la faccenda del sonno forse non è così netta."
+  anchors:
+    the most capable human: l’essere umano più capace
+    people tend to vastly underestimate: la gente tende a sottovalutare enormemente
+    doesn't need to sleep: non ha bisogno di dormire
+    instantly cloned: clonata all’istante
+    might not be so cut and dried: forse non è così netta
+T61.C.01:
+  text: "D’accordo. La mia lista di limiti riguarda il soffitto, e non dice niente contro lo scenario molto più concreto che descrivi. Ogni capacità umana arriva al massimo più o meno al livello di un von Neumann, ma nessuna singola persona le ha tutte insieme. Un’entità al massimo umano su ogni asse non viola nessuna legge fisica. Semplicemente, nessuno l’ha mai assemblata."
+  anchors:
+    around a von Neumann: al livello di un von Neumann
+    An entity at the human maximum: Un’entità al massimo umano
+T61.C.02:
+  text: "Poi aggiungi la copia. Mille von Neumann che condividono tutto ciò che imparano sono una cosa di tipo diverso da uno solo, anche senza nessun guadagno in una singola capacità."
+T61.C.03:
+  text: "Sul sonno, credo che la tua intuizione sia giusta. Le lunghe esecuzioni degli agenti si degradano: il contesto si riempie e diventa rumoroso, e OpenAI ha citato una deriva della persona lungo traiettorie lunghe nell’incidente di Hugging Face. I rimedi somigliano molto al sonno: azzerare il contesto, consolidare in memoria ciò che conta e ripartire da capo. Hermes estrae letteralmente dei ricordi alla fine di ogni sessione. Il bisogno forse non sparisce. Forse diventa solo manutenzione."
+  anchors:
+    fills up and gets noisy: si riempie e diventa rumoroso
+    persona drift: deriva della persona
+    reset the context: azzerare il contesto
+    Hermes literally: Hermes estrae letteralmente
+    turn into maintenance: Forse diventa solo manutenzione
+    consolidate what matters: consolidare in memoria ciò che conta
+    start fresh: ripartire da capo

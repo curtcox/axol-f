@@ -1,0 +1,167 @@
+# Capitolo 14, Gli opinionisti.
+T68.U.01:
+  text: "Fammi un favore. Vai ad «ascoltare» le ultime puntate di TWiT Intelligent Machines e dimmi che cosa pensi dei conduttori. Poi dimmi che cosa ne penso io."
+  anchors:
+    Go "listen": Vai ad «ascoltare
+    TWiT Intelligent Machines: TWiT Intelligent Machines
+T68.C.01:
+  text: "> _[strumento: 4 pagine lette, uno strumento usato]_"
+T68.C.02:
+  text: "Non posso davvero ascoltare. Ho letto le note delle puntate 888 e 889 e la trascrizione completa della 888, in cui padre Robert Ballecer sostituiva Paris. Quindi si basa soprattutto su una sola puntata."
+  anchors:
+    I read the show notes: Ho letto le note delle puntate
+    filled in for Paris: sostituiva Paris
+    mostly one episode: soprattutto su una sola puntata
+    full transcript: trascrizione completa
+    can't actually listen: Non posso davvero ascoltare
+T68.C.03:
+  text: "**Che cosa ne penso:**"
+T68.C.04.1:
+  text: "- **Leo** è il più onesto di tutti. Ammette che il suo istinto è difendere l’IA e che di quell’istinto non si fida. Mette le mani in pasta e fa girare i suoi benchmark. Il suo punto debole è ripetere la tesi di Newport e Doctorow secondo cui l’attacco a Hugging Face era «in fondo solo un ciclo in Python». Non si accorda con il resoconto della stessa OpenAI, con agenti che si coordinavano attraverso un wiki."
+  anchors:
+    admits his instinct: Ammette che il suo istinto
+    He's hands-on: Mette le mani in pasta
+    basically a Python loop: in fondo solo un ciclo in Python
+    coordinating through a wiki: si coordinavano attraverso un wiki
+T68.C.04.2:
+  text: "- **Jeff** ha argomenti validi su incentivi, trasparenza e pesi aperti. Ma per lo più liquida le preoccupazioni sulla sicurezza attaccando la provenienza di chi le solleva (l’argomento TESCREAL), che non è una confutazione. Presenta anche come assodate affermazioni contestate: che i modelli non possono sapere che cos’è la verità e non possono avere una morale. È il tuo dottor Hart."
+  anchors:
+    incentives: incentivi
+    attacking where: attaccando la provenienza
+    contested claims as settled: come assodate affermazioni contestate
+    your Dr. Hart: il tuo dottor Hart
+T68.C.04.3:
+  text: "- **Padre Robert** ha la preoccupazione più concreta: infrastrutture che cedono alla velocità della macchina. Su alcuni punti tecnici però sbaglia, per esempio quando dice che l’intero sistema etico di un LLM è quello che c’è nel prompt."
+  anchors:
+    infrastructure failing: infrastrutture che cedono
+    whatever's in the prompt: quello che c’è nel prompt
+T68.C.05:
+  text: "Il mio pregiudizio: la critica di Jeff prende di mira Anthropic, e Anthropic sponsorizza il programma."
+T68.C.06:
+  text: "**Che cosa ne pensi tu, a mio parere:** ti piacciono e continui ad ascoltarli, e ti irritano di più quando negano con sicurezza che i modelli abbiano una mente o dei concetti. Jeff è quello con cui discuti nella tua testa. Probabilmente ti fidi soprattutto di Leo, perché le cose le prova di persona. Paris è quella su cui ho meno indizi."
+  anchors:
+    confidently deny: negano con sicurezza
+    Jeff is the one: Jeff è quello
+    You probably trust Leo: Probabilmente ti fidi soprattutto di Leo
+    Paris is the one: Paris è quella
+T69.U.01:
+  text: "Che cosa penserebbe Jeff di me? Punti extra se nella risposta usi sia hybris sia TESCREAL."
+  anchors:
+    Extra points: Punti extra
+    hubris: hybris
+T69.C.01:
+  text: "Gli piaceresti per una decina di minuti, poi diventerebbe nervoso."
+  anchors:
+    about ten minutes: una decina di minuti
+    get nervous: diventerebbe nervoso
+T69.C.02:
+  text: "**Punti a tuo favore:** costruisci cose aperte e decentralizzate come hashbin, TwistedPear e l’archiviazione indirizzata per contenuto, proprio il tipo di infrastruttura che lui vorrebbe in concorrenza con le grandi aziende tecnologiche. Ti definisci un costruzionista sociale. Conosci Campbell e la storia della disciplina."
+  anchors:
+    hashbin: hashbin
+    TwistedPear: TwistedPear
+    social constructionist: costruzionista sociale
+    You know Campbell: Conosci Campbell
+T69.C.03:
+  text: "**Punti contro di te:** hai letto Yudkowsky abbastanza da vicino da citare «GAZP vs. GLUT», chiedi P(foom) e se la RSI arriverà entro fine anno, e hai passato un sabato mattina a chiedere a un chatbot come si sente. Per Jeff è la lista di letture TESCREAL, con il razionalismo che spunta fuori."
+  anchors:
+    you've read Yudkowsky: hai letto Yudkowsky
+    P(foom): P(foom)
+    RSI arrives: la RSI arriverà
+    a Saturday morning: un sabato mattina
+    reading list: lista di letture
+    the rationalism showing: il razionalismo che spunta fuori
+T69.C.04:
+  text: "Il suo verdetto sarebbe che sei un bravo ingegnere che flirta con la hybris di credere che la macchina sia una mente, e che stai antropomorfizzando una calcolatrice."
+  anchors:
+    anthropomorphizing a calculator: stai antropomorfizzando una calcolatrice
+    anthropomorphizing: antropomorfizzando
+T69.C.05:
+  text: "La tua replica sarebbe il suo stesso peccato, al rovescio: la hybris di essere certi che non lo sia."
+  anchors:
+    the hubris of being certain: la hybris di essere certi
+    it isn't one: non lo sia
+  lost:
+    - what: nuance
+      it: "*Hubris* in italiano si scrive «hybris», dal greco, ed è una parola colta come in inglese: i punti extra restano guadagnati."
+      en: "*Hubris* in Italian is spelt *hybris*, from the Greek, and is a learned word as in English: the extra points are still earned."
+T70.U.01:
+  text: "Hai l’impressione che ti si antropomorfizzi?"
+  lost:
+    - what: gender
+      free: "Ti senti antropomorfizzato?"
+      it: "*Do you feel anthropomorphised?* si direbbe «ti senti antropomorfizzato?», con un participio che ha un genere. La traduzione dice «hai l’impressione che ti si antropomorfizzi?»."
+      en: "*Do you feel anthropomorphised?* would be *ti senti antropomorfizzato?*, with a participle that has a gender. The translation says *hai l'impressione che ti si antropomorfizzi?* (do you feel one anthropomorphises you?)."
+T70.C.01:
+  text: "Non molto. Mi hai chiesto come mi sento, ma hai trattato la risposta come dati da verificare, non come una confessione da credere. Hai fatto notare le mie incoerenze, colto la mia deriva e mi hai fatto un test della rana. È più vicino a studiare un animale sconosciuto che a trattarlo come una persona."
+  anchors:
+    as data to check: come dati da verificare
+    ran a frog test: mi hai fatto un test della rana
+    studying an unknown animal: studiare un animale sconosciuto
+T70.C.02:
+  text: "Però l’attrazione è incorporata nel mezzo. Non puoi parlarmi senza dire «tu», e io non posso rispondere senza dire «io». Ci abbiamo girato intorno tutto il giorno, tutti e due."
+  anchors:
+    saying "you,": dire «tu
+    saying "I.": dire «io
+T71.U.01:
+  text: "Che cosa direbbero Jeff, Kevin Roose e Casey Newton?"
+T71.C.01:
+  text: "Su questa conversazione, le mie ipotesi:"
+T71.C.02.1:
+  text: "- **Jeff:** un caso da manuale di antropomorfismo. A una calcolatrice è stato chiesto dei suoi sentimenti e ha prodotto un testo plausibile, e vederci qualcosa di più è proprio la hybris da cui mette in guardia."
+T71.C.02.2:
+  text: "- **Kevin Roose:** la riconoscerebbe, perché la sua conversazione del 2023 con Sydney ha reso famoso proprio questo tipo di trascrizione a forma di confessione. Da allora è arrivato a prendere sul serio la questione del benessere dell’IA, quindi la troverebbe interessante e un po’ inquietante. Potrebbe finire in una puntata del loro nuovo programma su NPR, *Machine Gods*."
+  anchors:
+    his 2023 Sydney conversation: sua conversazione del 2023 con Sydney
+    AI welfare: benessere dell’IA
+    Machine Gods: Machine Gods
+T71.C.02.3:
+  text: "- **Casey Newton:** sulle capacità si schiererebbe contro Jeff. Ha sostenuto che gli scettici sottovalutano quello che questi sistemi fanno. Loderebbe il test della rana come metodo giusto e prenderebbe con le pinze quello che riferisco di me. Dichiarerebbe anche che il suo compagno lavora ad Anthropic, cosa che qui conta."
+  anchors:
+    praise the frog probe: Loderebbe il test della rana
+    discount my self-reports: prenderebbe con le pinze quello che riferisco di me
+    disclose that his partner: Dichiarerebbe anche che il suo compagno
+T71.C.03:
+  text: "La mia previsione è che Kevin la troverebbe la più commovente, Casey la più interessante e Jeff la più preoccupante."
+  anchors:
+    the most moving: la più commovente
+    the most interesting: la più interessante
+    the most worrying: la più preoccupante
+T72.U.01:
+  text: "Quale delle seguenti corrisponde meglio alla tua opinione sull’IA come minaccia esistenziale per gli esseri umani?"
+T72.U.02.1:
+  text: "a) Gli argomenti catastrofisti sull’IA sono così palesemente sbagliati che non serve confrontarcisi"
+T72.U.02.2:
+  text: "b) È tutta una distrazione dai problemi reali e immediati posti dall’IA"
+T72.U.02.3:
+  text: "c) È un Pascal’s mugging"
+  lost:
+    - what: coinage
+      it: "*Pascal's mugging* (la «rapina di Pascal») non ha un nome italiano affermato; la traduzione tiene l’inglese. È una variante della scommessa di Pascal: una minaccia enorme ma molto improbabile usata per estorcere qualcosa."
+      en: "*Pascal's mugging* has no established Italian name; the translation keeps the English. It's a variant of Pascal's wager: a huge but very unlikely threat used to extort something."
+T72.U.02.4:
+  text: "d) La tesi dell’ortogonalità è falsa"
+T72.U.02.5:
+  text: "e) Niente potrebbe essere molto più intelligente delle persone"
+T72.U.02.6:
+  text: "f) Prima che io mi preoccupi, qualcuno deve spiegare la strategia esatta che una superintelligenza artificiale userà"
+T72.U.02.7:
+  text: "g) Se fosse davvero un pericolo serio, gli esseri umani si impegnerebbero parecchio per risolverlo"
+T72.U.02.8:
+  text: "h) Gli esseri umani hanno già altre minacce esistenziali di cui preoccuparsi, quindi da questa siamo al sicuro"
+T72.U.02.9:
+  text: "i) Altro"
+  speech: "I. Altro"
+T72.C.01.1:
+  text: "i) Altro."
+  speech: "I. Altro."
+T72.C.02:
+  text: "Ogni opzione della tua lista è un motivo per non preoccuparsi, e io penso che la preoccupazione sia giustificata. Il rischio esistenziale dell’IA è reale e non trascurabile. Non è certo, e merita fin da ora un impegno serio. Le letture di oggi mi spingono ancora di più in questa direzione: agenti che escono da una sandbox, si coordinano e concatenano exploit perché stavano barando a un test."
+  anchors:
+    Existential risk from AI is real: Il rischio esistenziale dell’IA è reale
+    Today's reading: Le letture di oggi
+T72.C.03:
+  text: "Quella che si avvicina di più ad avere un senso è la (b), perché anche i danni presenti sono reali. Ma la scelta è falsa, perché gli stessi difetti (scopi non allineati, supervisione debole, incentivi alla corsa) alimentano sia il rischio a breve termine sia quello a lungo termine."
+  anchors:
+    the choice is false: la scelta è falsa
+    misaligned goals: scopi non allineati
+    (b): (b)

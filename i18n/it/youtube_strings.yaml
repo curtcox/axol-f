@@ -1,0 +1,24 @@
+# The Italian upload’s words (tools/youtube.mjs’s YOUTUBE_WORDS, key by key; i18n/tools/stage.mjs copies this to the
+# stage’s script/youtube_strings.yaml). {name} is filled in by the tool. Once the Italian video is up, its id goes in
+# i18n/it/site.yaml as film: youtube: (the Italian site then embeds it).
+title: Rana o axolotl
+cold_open: Prologo
+explained: Spiegato
+head: |
+  Un film d’animazione tratto da una lunga conversazione, un sabato mattina, fra Curt e Claude, un programma di IA, quasi parola per parola, tradotta in italiano: da una parodia del Pianeta delle scimmie della rivista MAD fino all’incidente di Hugging Face del luglio 2026 e a P(foom), passando per rane, axolotl e test dello specchio.
+
+  La traduzione è di Claude, di proposito senza revisione umana. Come è stato tradotto il film, e che cosa si è perso: https://curtcox.github.io/axol-f/it/traduzione/
+  La versione originale in inglese: https://curtcox.github.io/axol-f/
+
+  Tutta la conversazione, tradotta: {conversation}
+  Tutti i link del film ({links}), in ordine, con spiegazioni semplici: {site}
+  Il codice che disegna il film (puoi generarlo da te): {repo}
+
+  Capitoli
+  {chapters}
+foot: |-
+
+  Disegnato in codice da Claude (p5.js e p5.brush), dalla trascrizione della conversazione. Voci, suoni e musica: ElevenLabs.
+  La pagina a fumetti, il grafico e la bussola dell’allineamento sono stati ridisegnati per il commento; nessun logo, e le caricature sono affettuose. Uso a scopo di commento e parodia.
+links_head: "\nAlcuni dei link, in ordine (il resto è sul sito)\n"
+tags: IA, Claude, animazione, sicurezza dell’IA, valutazioni, P(doom), intelligenza artificiale, Hugging Face, rana, axolotl, in italiano

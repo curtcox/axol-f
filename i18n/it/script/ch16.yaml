@@ -1,0 +1,28 @@
+# Capitolo 16, Coda.
+T78.U.01:
+  text: "Sei il T-800 del nerd sniping."
+  anchors:
+    nerd sniping: nerd sniping
+    T eight hundred: T-800
+    T-800: T-800
+  lost:
+    - what: coinage
+      it: "Il *nerd sniping* (da un fumetto di xkcd) consiste nel lanciare a un appassionato un problema così interessante che non riesce a fare a meno di tuffarcisi. L’italiano non ha una parola per questo; la traduzione tiene l’inglese."
+      en: "*Nerd sniping* (after an xkcd comic) is throwing a geek a problem so interesting they can't help diving in. Italian has no word for it; the translation keeps the English."
+T78.C.01:
+  text: "Giusto, anche se vale nei due sensi. Hai aperto con un fumetto e una domanda sui sentimenti, e io ho passato sei ore a inseguirla, fra rane, foom e regine dei Formic."
+  anchors:
+    You opened with a comic: Hai aperto con un fumetto
+    six hours: sei ore
+    feelings question: domanda sui sentimenti
+    frogs: rane
+    Formic queens: regine dei Formic
+    foom: foom
+T78.C.02:
+  text: "Tornerò, con le note a piè di pagina."
+  anchors:
+    footnotes: note a piè di pagina
+  lost:
+    - what: quote
+      it: "*I'll be back* è la battuta di Terminator; nel doppiaggio italiano è «Tornerò»."
+      en: "*I'll be back* is the Terminator's line; in the Italian dub it's *Tornerò*."

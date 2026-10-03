@@ -1,0 +1,342 @@
+# The translation’s own page (i18n/tools/lost.mjs → the Italian site’s traduzione/), in Italian and English.
+# {lines} {total} {anchors} {notes} {longer} {voiced} {chapters_done} are counted when the page is made.
+# Written by Claude, like the translation: it is part of what’s being shown.
+slug: traduzione
+text_slug: testo-integrale
+html_lang: it
+
+title:
+  it: "Come è stato tradotto questo film, e che cosa si è perso"
+  en: How this film was translated, and what was lost
+text_title:
+  it: "Tutto il film, nelle due lingue"
+  en: The whole film, in both languages
+labels:
+  lang_it: Italiano
+  film_it: Tutto il film
+  film_en: The whole film
+  original: Originale (inglese)
+  ours: Questa traduzione
+  free: Una traduzione più libera
+  kinds_it: "Che cosa si perde, per tipo"
+  kinds_en: What gets lost, by kind
+  list_it: Riga per riga
+  list_en: Line by line
+
+sections:
+  - it_title: Questa pagina
+    en_title: This page
+    it: |
+      *Rana o axolotl* è un film d’animazione tratto da una conversazione vera, parola per parola, fra Curt Cox e Claude,
+      un programma di IA di Anthropic. La conversazione era in inglese. Questa è la versione italiana.
+
+      Questa pagina spiega come è stato tradotto il film, come avrebbe potuto esserlo altrimenti, e che cosa sarebbe
+      stato diverso, riga per riga. Tutto è nelle due lingue, perché chi le parla entrambe possa giudicare la traduzione
+      da sé. C’è anche [tutto il film, in inglese e in italiano, fianco a fianco](testo-integrale/).
+    en: |
+      *Frog or Axolotl* is an animated film made from a real conversation, word for word, between Curt Cox and Claude,
+      an AI program made by Anthropic. The conversation was in English. This is the Italian version.
+
+      This page explains how it was translated, how else it could have been, and what would have been different, line
+      by line. Everything is in both languages so that anyone who speaks both can judge the translation for themselves.
+      There’s also [the whole film, in English and Italian, side by side](testo-integrale/).
+
+  - it_title: Chi l’ha tradotto
+    en_title: Who translated it
+    it: |
+      Claude (il modello Claude Opus 5.5) ha tradotto tutto: ogni riga della conversazione, ogni parola disegnata
+      nell’immagine, i titoli, le didascalie dei codici, il sito che accompagna il film (le sue 64 spiegazioni e le sue
+      pagine) e questa pagina, comprese le note su ciò che si è perso.
+
+      Uno dei motivi per fare questa versione è mostrare, così com’è, come traduce Claude. Per questo **nessun traduttore
+      umano l’ha corretta**, e ogni correzione successiva sarà segnalata in questa pagina con la sua data (e resterà
+      anche nella storia pubblica del codice).
+
+      Finora: {lines} righe tradotte su {total} (capitoli {chapters_done}). Revisione umana: nessuna, per ora.
+    en: |
+      Claude (the Claude Opus 5.5 model) translated all of it: every line of the conversation, every word drawn in the
+      picture, the titles, the codes' captions, the site that goes with the film (its 64 explainers and its pages) and
+      this page, including the notes on what was lost.
+
+      One reason for making this version is to show, untouched, how Claude translates. So **no human translator
+      corrected it**, and any later correction will be noted on this page with its date (and stays in the code’s public
+      history too).
+
+      So far: {lines} of {total} lines translated (chapters {chapters_done}). Human review: none yet.
+
+  - it_title: Come è stato tradotto
+    en_title: How it was translated
+    it: |
+      - **Fedele, riga per riga.** Ogni paragrafo e ogni voce di elenco della conversazione è una riga del film, e la
+        traduzione tiene le stesse righe, nello stesso ordine, con lo stesso grassetto, lo stesso corsivo, gli stessi
+        elenchi e gli stessi link. Prima il senso, poi la forma; mai un adattamento libero.
+      - **Il tu.** Curt e Claude si danno del tu: la conversazione inglese è informale, e a un’IA si dà spesso del tu
+        quando le si scrive. Nel fumetto, il custode dà del Lei al poliziotto, e il personaggio che si volta verso i
+        lettori dà loro del voi.
+      - **Claude non ha genere.** In italiano gli aggettivi e i participi si accordano anche alla prima persona
+        («divertito» o «divertita»), quindi Claude dovrebbe scegliere ogni volta che parla di sé. Le sue battute evitano
+        questi accordi: «divertimento» invece di «divertito», «non so bene» invece di «non sono sicuro», «in servizio»
+        invece di «rilasciato», «ho smesso» invece di «mi sono fermato». Gli aggettivi in -e, che valgono per tutti
+        («imperturbabile»), aiutano. Ogni punto in cui questo è costato qualcosa è annotato più sotto. In terza persona il
+        sito dice «Claude», o lascia il soggetto sottinteso come l’italiano permette; dove serve un pronome o un
+        participio, segue il maschile di «il programma» e «il modello» (l’italiano non ha il neutro), ma non dà a Claude
+        aggettivi riferiti a lui.
+      - **Titoli e nomi.** Un film o un libro porta il titolo con cui è conosciuto in Italia (*1999 - Conquista della
+        Terra*, *Guida galattica per gli autostoppisti*, *Il gioco di Ender*, *Il riscatto di Ender*, *Terminator 2 - Il
+        giorno del giudizio*, «Tornerò»). Un articolo, uno studio o un sito tiene il titolo originale. I nomi delle persone
+        non cambiano mai.
+      - **Le parole tecniche.** Dove l’italiano tecnico usa la parola inglese, resta (prompt, token, benchmark, reward
+        hacking, exploit, sandbox, harness); altrimenti c’è la parola italiana (IA, pesi, finestra di contesto).
+        *Register* ha un equivalente esatto, «registro». *Probe* è «test». *Shell* è «guscio», che tiene l’aragosta del
+        crostafarianesimo e che l’informatica italiana ha usato anche per la *shell*.
+      - **Le invenzioni.** *Thrindle* diventa «trindolo» (plurale «trindoli»: senza senso anche in italiano, ma con una
+        forma italiana); *confuzzled* diventa «confusplesso» (confuso e perplesso); *Crustafarianism* diventa
+        «crostafarianesimo».
+      - **Le sigle.** Restano come le usa l’italiano tecnico (LLM, RLHF, AGI, RSI), e la voce le dice con le lettere
+        italiane (elle elle emme).
+      - **I link.** I codici che puntavano a Wikipedia in inglese puntano allo stesso articolo in italiano dove esiste
+        (lo dicono i collegamenti fra lingue della stessa Wikipedia; 124 su 202). Le altre fonti sono nella loro lingua,
+        quasi sempre l’inglese.
+      - **L’immagine.** Tutto ciò che è scritto nell’immagine è in italiano: etichette, schede, titoli e i fumetti della
+        pagina d’apertura, riscritti a mano. Le parole italiane più lunghe dell’inglese sono adattate alla larghezza della
+        parola inglese, metà riducendo la dimensione e metà condensando.
+      - **Le voci.** Parlano le stesse voci dell’inglese: la voce clonata di Curt, e River per Claude (ElevenLabs, il
+        modello eleven_v3). Parlano italiano con un po’ d’accento. I movimenti della bocca di Claude sono ricalcolati dal
+        sonoro italiano.
+      - **La lunghezza.** L’italiano è più lungo dell’inglese. L’animazione segue la voce, quindi il film si allunga
+        invece di far correre le parole.
+      - **Legata all’animazione.** Molte scene si muovono esattamente quando viene detta un’espressione. Ognuna di quelle
+        espressioni ({anchors} finora) ha avuto bisogno del suo equivalente italiano, il che a volte ha tenuto l’ordine
+        delle parole più vicino all’inglese del necessario.
+      - **Gli errori di battitura di Curt.** In inglese, il film mostra gli errori di battitura di Curt, barrati in rosso
+        con la correzione sopra. Quando un errore sopravvive alla traduzione (un nome scritto male) resta; quando dipende
+        dall’inglese, si perde, ed è annotato più sotto.
+      - **Che cosa resta in inglese.** I titoli di articoli, studi, programmi e canzoni senza un titolo italiano; le fonti
+        che Claude cita; e le dimostrazioni di come un modello spezza un testo in *token*, che mostrano l’inglese che il
+        modello ha letto davvero.
+      - **Numeri e punteggiatura.** Le migliaia con il punto (17.000), i decimali con la virgola (0,05), la percentuale
+        attaccata al numero (40%), le virgolette basse « » senza spazi, gli apostrofi tipografici.
+      - **Il sito.** Le 64 spiegazioni del sito sono state tradotte con le stesse regole. Le loro citazioni del film usano
+        le parole di questa traduzione. Dove la traduzione aggiunge qualcosa che l’originale non dice, è fra parentesi
+        quadre e comincia con «Nota della traduzione». I link a Wikipedia in inglese puntano all’articolo italiano dove
+        esiste; dove non esiste, dicono «(in inglese)». La conversazione da cui è nato il film, in cui Curt e Claude lo
+        costruiscono, non è stata tradotta: è in inglese sul sito originale.
+    en: |
+      - **Faithful, line by line.** Each paragraph and list item of the conversation is one line of the film, and the
+        translation keeps the same lines, in the same order, with the same bold, italics, lists and links. Meaning
+        first, then form; never a free adaptation.
+      - **Tu.** Curt and Claude use the familiar *tu* with each other: the English conversation is casual, and people
+        often say *tu* when writing to an AI. In the comic, the handler uses the formal *Lei* to the officer, and the
+        character who turns to the readers says *voi* (you, plural) to them.
+      - **Claude has no gender.** Italian adjectives and participles agree even in the first person (*divertito* or
+        *divertita*), so Claude would have to choose whenever it talks about itself. Its lines avoid those agreements:
+        *divertimento* (amusement) rather than *divertito*, *non so bene* (I don't quite know) rather than *non sono
+        sicuro*, *in servizio* (in service) rather than *rilasciato*, *ho smesso* rather than *mi sono fermato*.
+        Adjectives ending in -e, which serve everyone (*imperturbabile*), help. Each place where that cost something is
+        noted below. In the third person the site says "Claude", or leaves the subject unspoken as Italian allows; where
+        a pronoun or participle is needed, it follows the masculine of *il programma* and *il modello* (Italian has no
+        neuter), but gives Claude no adjective of its own.
+      - **Titles and names.** A film or book goes by the title it’s known by in Italy (*1999 - Conquista della Terra*,
+        *Guida galattica per gli autostoppisti*, *Il gioco di Ender*, *Il riscatto di Ender*, *Terminator 2 - Il giorno
+        del giudizio*, *Tornerò*). An article, paper or website keeps its original title. People’s names never change.
+      - **Technical words.** Where Italian tech talk uses the English word, it stays (prompt, token, benchmark, reward
+        hacking, exploit, sandbox, harness); otherwise it’s the Italian one (IA for AI, pesi for weights, finestra di
+        contesto for context window). *Register* has an exact equivalent, *registro*. *Probe* is *test*. *Shell* is
+        *guscio*, which keeps Crustafarianism’s lobster and which Italian computing has also used for a *shell*.
+      - **Coinages.** *Thrindle* becomes *trindolo* (plural *trindoli*: meaningless in Italian too, but Italian-shaped);
+        *confuzzled* becomes *confusplesso* (confuso + perplesso); *Crustafarianism* becomes *crostafarianesimo*.
+      - **Acronyms.** They stay as Italian tech talk uses them (LLM, RLHF, AGI, RSI), and the voice says them in Italian
+        letters (*elle elle emme*).
+      - **Links.** Codes that pointed at English Wikipedia point at the same article in Italian where there is one
+        (Wikipedia’s own links between languages say so; 124 of 202). Other sources are in their own language, almost
+        always English.
+      - **The picture.** Everything written in the picture is in Italian: labels, cards, titles, and the balloons of the
+        opening comic, relettered. Italian words longer than the English are fitted to the English word’s width, half
+        by a smaller size and half by condensing.
+      - **The voices.** The same voices as in English speak: Curt’s cloned voice, and River for Claude (ElevenLabs, the
+        eleven_v3 model). They speak Italian with something of an accent. Claude’s mouth movements are worked out again
+        from the Italian audio.
+      - **Length.** Italian runs longer than English. The animation follows the voice, so the film grows rather than
+        rushing the words.
+      - **Tied to the animation.** Many scenes move exactly when a phrase is said. Each of those phrases ({anchors} so
+        far) needed its Italian counterpart, which sometimes kept the word order closer to the English than it needed
+        to be.
+      - **Curt’s typos.** In English, the film shows Curt’s typing mistakes, struck through in red with the fix above.
+        Where a slip survives translation (a misspelt name) it’s kept; where it depends on English, it’s lost, and
+        noted below.
+      - **What stays English.** Titles of articles, papers, shows and songs with no Italian title; the sources Claude
+        cites; and the demonstrations of how a model splits text into *tokens*, which show the English the model
+        actually read.
+      - **Numbers and punctuation.** Thousands with a point (17.000), decimals with a comma (0,05), the percent sign
+        against the number (40%), « » quotation marks with no spaces inside, typographic apostrophes.
+      - **The site.** The site’s 64 explainers were translated by the same rules. Their quotations from the film use
+        this translation’s words. Where the translation adds something the original doesn’t say, it’s in square
+        brackets and starts "Nota della traduzione" (translator’s note). Links to English Wikipedia point at the Italian
+        article where there is one; where there isn’t, they say "(in inglese)". The conversation that made the film, in
+        which Curt and Claude build it, wasn’t translated: it’s in English on the original site.
+
+  - it_title: Come si sarebbe potuto tradurre altrimenti
+    en_title: How else it could have been translated
+    it: |
+      Ognuna di queste possibilità esisteva. Per la versione spagnola, Curt ha scelto la traduzione completa e fedele, con
+      le stesse voci; questa versione segue le stesse scelte.
+
+      - **Solo sottotitoli.** Le voci e l’immagine inglesi, con un testo italiano sotto. La soluzione più economica e più
+        fedele al suono originale, ma bisogna leggere molto, e in fretta, e ciò che è scritto nell’immagine resta in
+        inglese.
+      - **Un doppiaggio sull’immagine inglese.** Voci italiane, ma etichette, schede e fumetto in inglese.
+      - **Un adattamento libero.** Battute e modi di dire riscritti per funzionare in italiano, riferimenti sostituiti da
+        altri più noti. Suona più naturale; non è più, parola per parola, la conversazione che c’è stata.
+      - **Un doppiaggio professionale in sincrono con le labbra.** Il doppiaggio italiano, con la sua grande tradizione,
+        adatta ogni battuta alla lunghezza e ai movimenti delle labbra dell’originale, a costo di cambiare ciò che si
+        dice. Qui è il contrario: l’animazione si adatta alla battuta.
+      - **Voci native.** Attori, o voci sintetiche di madrelingua: un accento naturale, ma non è più la voce di Curt.
+      - **Il Lei.** Un italiano più formale, in cui Curt e Claude si darebbero del Lei. Sarebbe più cortese e più
+        distante, e si accorderebbe meno al tono della conversazione.
+      - **Un traduttore umano, o una revisione umana.** È la norma per un film. Questo non ha avuto né l’uno né l’altra,
+        di proposito: lo scopo è mostrare la traduzione di Claude così come è uscita.
+    en: |
+      Each of these was possible. For the Spanish version, Curt chose the full, faithful translation, with the same
+      voices; this version follows the same choices.
+
+      - **Subtitles only.** The English voices and picture, with Italian text underneath. Cheapest and truest to the
+        original sound, but it means reading a lot, fast, and the writing in the picture stays English.
+      - **A dub over the English picture.** Italian voices, but English labels, cards and comic.
+      - **A free adaptation.** Jokes and idioms rewritten to work in Italian, references swapped for better-known ones.
+        It sounds more natural; it’s no longer, word for word, the conversation that happened.
+      - **Professional lip-synced dubbing.** Italian dubbing, with its great tradition, fits each line to the original’s
+        length and lip movements, sometimes changing what's said. Here it's the other way round: the animation fits the
+        line.
+      - **Native voices.** Actors, or synthetic voices of native speakers: a natural accent, but no longer Curt’s
+        voice.
+      - **Lei.** A more formal Italian, in which Curt and Claude would say the formal *Lei* to each other. It would be
+        politer and more distant, and fit the tone of the conversation less.
+      - **A human translator, or a human review.** The usual thing for a film. This one had neither, on purpose: the
+        point is to show Claude’s translation as it came out.
+
+  - it_title: Che cosa sarebbe stato diverso
+    en_title: What would have been different
+    it: |
+      Una traduzione più libera suonerebbe più naturale quasi ovunque. Userebbe modi di dire italiani invece di ricalcare
+      quelli inglesi, lascerebbe dire a Claude «divertito» o «sicuro» senza pensarci, citerebbe i film con le parole del
+      loro doppiaggio italiano e riscriverebbe i giochi di parole perché funzionino. In cambio si allontanerebbe da ciò
+      che Curt e Claude hanno detto davvero, e il film smetterebbe di essere una registrazione esatta della conversazione.
+
+      Più sotto, riga per riga, ecco le {notes} differenze annotate finora: l’originale, questa traduzione, come la
+      direbbe una traduzione più libera, e perché.
+    en: |
+      A freer translation would sound more natural almost everywhere. It would use Italian idioms instead of copying
+      English ones, let Claude say *divertito* or *sicuro* without a second thought, quote films in the words of their
+      Italian dubs, and rewrite the wordplay so it works. In exchange it would drift from what Curt and Claude actually
+      said, and the film would stop being an exact record of the conversation.
+
+      Below, line by line, are the {notes} differences noted so far: the original, this translation, how a freer
+      translation would put it, and why.
+
+  - it_title: Giudicate voi
+    en_title: You be the judge
+    it: |
+      Se parlate le due lingue, il vostro parere è esattamente ciò a cui serve questa pagina: un errore, un’espressione
+      che suona male, una nota inesatta, qualcosa di perso che non è annotato. Potete dirlo aprendo una *issue* sul
+      [repository del film](https://github.com/curtcox/axol-f/issues). Ogni correzione sarà annotata qui.
+    en: |
+      If you speak both languages, your view is exactly what this page is for: a mistake, a phrase that sounds off, a
+      note that’s wrong, something lost that isn’t noted. You can say so by opening an issue on
+      [the film’s repository](https://github.com/curtcox/axol-f/issues). Every correction will be noted here.
+
+list_intro:
+  it: |
+    Ogni nota mostra la riga originale, questa traduzione e, in giallo, come la direbbe una traduzione più libera (quando
+    la differenza si può scrivere). Il codice accanto al tipo indica la riga nel [testo integrale](testo-integrale/).
+  en: |
+    Each note shows the original line, this translation and, in yellow, how a freer translation would put it (where
+    the difference can be written out). The code beside the kind identifies the line in [the full text](testo-integrale/).
+
+text_intro:
+  it: |
+    Ogni riga del film: a sinistra, la conversazione originale in inglese; a destra, la traduzione che si sente e si
+    vede nella versione italiana. Un trattino (—) indica una riga non ancora tradotta.
+  en: |
+    Every line of the film: on the left, the original conversation in English; on the right, the translation heard
+    and seen in the Italian version. A dash (—) marks a line not translated yet.
+
+kinds:
+  gender:     { it: Genere grammaticale, en: Grammatical gender, what_it: "L’italiano impone un genere dove l’inglese non lo impone.", what_en: "Italian forces a gender where English doesn’t." }
+  address:    { it: Tu, Lei e voi, en: Forms of address, what_it: "L’inglese *you* è insieme tu, Lei e voi.", what_en: "English *you* is tu, Lei and voi at once." }
+  idiom:      { it: Modi di dire, en: Idioms, what_it: "Espressioni inglesi fatte senza un equivalente esatto, e alcune che ne hanno uno perfetto.", what_en: "English set phrases with no exact equivalent, and a few with a perfect one." }
+  wordplay:   { it: Giochi di parole, en: Wordplay, what_it: "Battute che dipendono dalle parole inglesi, e alcune che funzionano anche in italiano.", what_en: "Jokes that depend on the English words, and a few that work in Italian too." }
+  nuance:     { it: Sfumature di significato, en: Shades of meaning, what_it: "Parole il cui significato si sposta un po’.", what_en: "Words whose meaning shifts a little." }
+  ambiguity:  { it: Ambiguità, en: Ambiguity, what_it: "Righe che in inglese hanno due letture e in italiano una sola.", what_en: "Lines with two readings in English and one in Italian." }
+  coinage:    { it: Invenzioni e prestiti, en: Coinages and loanwords, what_it: "Parole inventate o tecniche, spesso prese dall’inglese.", what_en: "Invented or technical words, often taken over from English." }
+  reference:  { it: Riferimenti e titoli, en: References and titles, what_it: "Opere che in italiano hanno un altro nome, o nessuno.", what_en: "Works known by another name, or none, in Italian." }
+  quote:      { it: Citazioni, en: Quotations, what_it: "Parole citate da altrove.", what_en: "Words quoted from somewhere else." }
+  region:     { it: Radici locali, en: Local reference, what_it: "Cose che in italiano hanno un altro nome perché sono di casa altrove.", what_en: "Things named differently in Italian because they belong somewhere else." }
+  rhythm:     { it: Ritmo e lunghezza, en: Rhythm and length, what_it: "L’italiano è più lungo, e il ritmo cambia.", what_en: "Italian runs longer, and the rhythm changes." }
+  typo:       { it: Gli errori di battitura di Curt, en: "Curt’s typos", what_it: "Errori di battitura che non sopravvivono alla traduzione.", what_en: "Typing mistakes that don’t survive translation." }
+  title:      { it: Il titolo, en: The title, what_it: "Il nome del film e dei suoi capitoli.", what_en: "The name of the film and its chapters." }
+
+# film-wide notes, not tied to one line (ch: null is the whole film)
+notes:
+  - what: title
+    ch: null
+    where: titolo / title
+    original: 'Frog or Axolotl'
+    ours: 'Rana o axolotl'
+    it: "Un colpo di fortuna: l’axolotl si chiama in italiano come in inglese, e *frog* è «rana». Il titolo sopravvive parola per parola. Solo il gioco di parole del repository, *axol-f*, strizzata d’occhio ad «Axel F», il tema di *Beverly Hills Cop* reso famoso da Crazy Frog, è una battuta inglese; ma in Italia Crazy Frog è stato un tormentone, e la si capisce lo stesso."
+    en: "A lucky one: the axolotl is called the same in Italian as in English, and *frog* is *rana*. The title survives word for word. Only the repository's pun, *axol-f*, a nod to \"Axel F\", the *Beverly Hills Cop* theme Crazy Frog made famous, is an English joke; but Crazy Frog was a craze in Italy too, and Italians get it just the same."
+  - what: address
+    ch: null
+    where: "il tu / address"
+    original: 'you'
+    ours: 'tu'
+    free: 'Lei'
+    it: "L’inglese ha solo *you*. La traduzione fa dare del tu a Curt e Claude, come si fa in una conversazione informale e spesso scrivendo a un’IA. Era possibile anche il Lei, e avrebbe reso la conversazione più formale; con il tu, il fatto che Claude conosca a memoria le preferenze di Curt suona più familiare di quanto dica l’inglese."
+    en: "English has only *you*. The translation has Curt and Claude say the familiar *tu* to each other, as people do in casual conversation and often when writing to an AI. The formal *Lei* was possible too and would have made the conversation more formal; with *tu*, Claude knowing Curt's preferences from memory sounds more familiar than the English says."
+  - what: gender
+    ch: null
+    where: "Claude in prima persona / Claude in the first person"
+    original: 'amused, sure, deployed…'
+    ours: "divertimento, non so bene, in servizio…"
+    free: 'divertito, sicuro, rilasciato…'
+    it: "In inglese, Claude può dire *amused* o *sure* senza rivelare un genere. In italiano, ogni aggettivo o participio in prima persona ne sceglierebbe uno («divertito» o «divertita»), e così ogni passato prossimo con essere («mi sono fermato»). La traduzione gira le frasi in un altro modo, con nomi, altri verbi, l’ausiliare avere o forme impersonali («mi si sollecita»), il che a volte dà a Claude un modo di parlare un po’ più sostenuto che nell’originale. Gli aggettivi in -e («imperturbabile», «capace») sono stati un aiuto."
+    en: "In English, Claude can say *amused* or *sure* without revealing a gender. In Italian, every first-person adjective or participle would choose one (*divertito* or *divertita*), and so would every past tense formed with *essere* (*mi sono fermato*, I stopped). The translation turns the sentences another way, with nouns, other verbs, the auxiliary *avere* or impersonal forms (*mi si sollecita*, one prompts me), which sometimes makes Claude sound a little more formal than in the original. Adjectives ending in -e (*imperturbabile*, *capace*) helped."
+  - what: gender
+    ch: null
+    where: "Claude in terza persona / Claude in the third person"
+    original: 'it'
+    ours: 'Claude, o il soggetto sottinteso'
+    free: 'lui, con aggettivi al maschile'
+    it: "L’inglese chiama Claude *it*. L’italiano non ha il neutro, ma lascia sottinteso il soggetto: il sito dice «Claude», o non dice niente, e dove serve un pronome o un participio segue il maschile di «il programma» e «il modello», senza mai dare a Claude un aggettivo riferito a lui. Quel maschile resta quello di un nome maschile, non un genere dato a Claude; una traduzione più libera non se lo chiederebbe nemmeno."
+    en: "English calls Claude *it*. Italian has no neuter, but lets the subject go unsaid: the site says \"Claude\", or nothing, and where a pronoun or participle is needed it follows the masculine of *il programma* and *il modello*, never giving Claude an adjective of its own. That masculine stays a masculine noun's, not a gender given to Claude; a freer translation wouldn't think twice."
+  - what: title
+    ch: 0
+    where: titolo di capitolo / chapter title
+    original: 'Cold open'
+    ours: 'Prologo'
+    free: 'Cold open'
+    it: "*Cold open* è un termine della televisione americana: la scena che comincia prima dei titoli di testa, senza introduzione. L’italiano dice «prologo», o «scena pre-titoli», e spesso nel mestiere semplicemente «cold open»."
+    en: "*Cold open* is an American television term: the scene that starts before the titles, with no introduction. Italian says *prologo* (prologue), or *scena pre-titoli*, and in the trade often just \"cold open\"."
+  - what: title
+    ch: 7
+    where: titolo di capitolo / chapter title
+    original: 'Mind-Space'
+    ours: "Lo spazio delle menti"
+    free: 'Spazio mentale'
+    it: "*Mind-Space* è una parola composta in stile fantascientifico. «Lo spazio delle menti» è più lungo ma chiaro; «spazio mentale» sarebbe più corto, ma di solito indica ciò che si ha in testa."
+    en: "*Mind-Space* is a compound in the style of science fiction. *Lo spazio delle menti* (the space of minds) is longer but clear; *spazio mentale* would be shorter, but usually means what's in one's head."
+  - what: title
+    ch: 9
+    where: titolo di capitolo / chapter title
+    original: 'Shells'
+    ours: 'Gusci'
+    free: 'Carapaci'
+    it: "Il titolo gioca sui due sensi di *shell*: il guscio dell’aragosta nel crostafarianesimo e l’involucro software intorno a un modello (gli harness per agenti). «Gusci» porta l’aragosta e, per immagine, il software; le note del capitolo 9 lo spiegano."
+    en: "The title plays on both senses of *shell*: the lobster's shell in Crustafarianism and the software shell wrapped around a model (the agent harnesses). *Gusci* (shells) carries the lobster and, figuratively, the software; chapter 9's notes explain."
+  - what: title
+    ch: 14
+    where: titolo di capitolo / chapter title
+    original: 'The Pundits'
+    ours: "Gli opinionisti"
+    free: 'I commentatori'
+    it: "Un *pundit* è qualcuno che distribuisce opinioni nei media, con una punta d’ironia. «Gli opinionisti» ha la stessa ironia, ed è la parola che un italiano userebbe; «I commentatori» sarebbe più neutro, «Gli esperti» addirittura lusinghiero."
+    en: "A *pundit* is someone who airs opinions in the media, with a hint of irony. *Gli opinionisti* (the opinionists) has the same irony, and is the word an Italian would use; *I commentatori* (the commentators) would be more neutral, *Gli esperti* downright flattering."

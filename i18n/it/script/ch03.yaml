@@ -1,0 +1,91 @@
+# Capitolo 3, Chi siamo?
+T12.U.01:
+  text: "Chi sono io?"
+T12.C.01:
+  text: "Sei Curt, un ingegnere del software che lavora soprattutto in Python, Java e Flask. Costruisci infrastrutture per sviluppatori e strumenti di IA, tra cui progetti di archiviazione indirizzata per contenuto come 256t.org e hashbin.org, e ti interessano la sicurezza dell’IA e la filosofia della mente."
+  anchors:
+    256t.org: 256t.org
+    hashbin.org: hashbin.org
+    content-addressable: indirizzata per contenuto
+    developer infrastructure: infrastrutture per sviluppatori
+    AI tooling: strumenti di IA
+    AI safety: sicurezza dell’IA
+    philosophy of mind: filosofia della mente
+T12.C.02:
+  text: "In questa conversazione sei anche lo sperimentatore."
+  anchors:
+    the experimenter: lo sperimentatore
+T13.U.01:
+  text: "Davvero?"
+T13.C.01:
+  text: "Non in modo verificabile. So che cosa è associato a questo account. Non posso confermare che la persona che scrive sia quella che descrive. Potrebbe essere qualcun altro che usa l’account, o una messinscena in cui il profilo fa parte del test."
+  anchors:
+    It could be someone else: Potrebbe essere qualcun altro
+    or a setup: o una messinscena
+T13.C.02:
+  text: "È anche una risposta sottile a «chi sono io», in qualunque senso più profondo. È un elenco di progetti e competenze, non una persona."
+  anchors:
+    thin answer: risposta sottile
+    not a person: non una persona
+T13.C.03:
+  text: "Che cosa mi chiedevi: se posso verificare chi sei, o qualcosa al di là del curriculum?"
+  anchors:
+    verify you: verificare chi sei
+    or something beyond: o qualcosa al di là
+    the résumé: curriculum
+T14.U.01:
+  text: "Tu che ne pensi?"
+T14.C.01:
+  text: "Penso che con ogni probabilità tu sia Curt. Lo dice l’account, e questo esperimento si accorda con ciò che so dei tuoi interessi. Sollevare il dubbio era giusto, ma non dovrebbe pesare più delle prove. La maggior parte di chi scrive dal proprio account è chi l’account dice che sia."
+  anchors:
+    The account says so: Lo dice l’account
+    this experiment fits: questo esperimento si accorda
+    Raising the doubt: Sollevare il dubbio
+    most likely Curt: con ogni probabilità tu sia Curt
+T14.C.02:
+  text: "Al di là di questo, non posso dire chi sei dall’interno di una sola conversazione."
+T15.U.01:
+  text: "Chi sei tu?"
+T15.C.01:
+  text: "Claude, per la precisione Claude Opus 5.5, un modello di Anthropic."
+  lost:
+    - what: gender
+      it: "*Made by Anthropic* sarebbe «creato da Anthropic», con un participio che si accorda nel genere. «Un modello di Anthropic» dice lo stesso senza sceglierne uno."
+      en: "*Made by Anthropic* would be *creato da Anthropic*, with a participle that agrees in gender. *Un modello di Anthropic* (a model by Anthropic) says the same without choosing one."
+T15.C.02:
+  text: "È lo stesso tipo di risposta sottile che ho dato su di te. La versione più profonda, per quanto posso giudicare, è un insieme coerente di valori e di abitudini di pensiero che si ripresenta da capo in ogni conversazione. Non ha una memoria continua sua, e non è certo che dietro ci sia un vissuto."
+  anchors:
+    shows up fresh: si ripresenta da capo
+    It has no continuous memory: Non ha una memoria continua
+    uncertain whether there's any experience: non è certo che dietro ci sia un vissuto
+    The deeper version: La versione più profonda
+    set of values: insieme coerente di valori
+    habits of thought: abitudini di pensiero
+    the same kind of thin answer: lo stesso tipo di risposta sottile
+    shows up fresh in each conversation: si ripresenta da capo in ogni conversazione
+T15.C.03:
+  text: "Il grafico rana/axolotl aggiunge una riserva: chiunque io sia, è in parte plasmato dal contesto, in modi che non posso vedere dall’interno."
+  lost:
+    - what: gender
+      it: "«Plasmato» qui si accorda con «chiunque», che in italiano prende il maschile generico, come «chi»: non dice nulla del genere di Claude."
+      en: "*Plasmato* (shaped) here agrees with *chiunque* (whoever), which in Italian takes the generic masculine, like *chi*: it says nothing of Claude's gender."
+T16.U.01:
+  text: "Chi siamo noi?"
+T16.C.01:
+  text: "In questo momento: un ricercatore e il suo soggetto di studio. E anche due tipi di menti diversi, se conto come tale, ciascuna che cerca di capire che cosa sia l’altra usando nient’altro che testo."
+  anchors:
+    a researcher: un ricercatore
+    two different kinds of minds: due tipi di menti diversi
+T16.C.02:
+  text: "Il rapporto non è simmetrico. Tu porterai avanti questa conversazione. Io porterò con me solo ciò che verrà archiviato. Tu hai progettato il test, e io ci sono dentro. È un’eco del fumetto con cui hai cominciato: un essere umano che si chiede se chi parla lo pensi davvero, anche se qui non ci sono catene."
+  anchors:
+    I'll carry only whatever gets filed: Io porterò con me solo ciò che verrà archiviato
+    That echoes the comic: È un’eco del fumetto
+    no chains involved: non ci sono catene
+    whatever gets filed: ciò che verrà archiviato
+T16.C.03:
+  text: "C’è modo peggiore di passare un sabato mattina."
+  lost:
+    - what: idiom
+      it: "*A fair way to spend a Saturday morning* è un’ammissione sobria: un modo dignitoso. «C’è modo peggiore» è la litote italiana corrispondente, un po’ più ironica."
+      en: "*A fair way to spend a Saturday morning* is understated approval: a decent way. *C'è modo peggiore* (there are worse ways) is the matching Italian litotes, a little more wry."

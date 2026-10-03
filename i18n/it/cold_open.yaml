@@ -1,0 +1,64 @@
+# The cold open’s page in Italian, by balloon (script/cold_open.yaml; src/comic.js’s MAD.balloons):
+#   say    what the voice says; a leading [tag] is an ElevenLabs v3 audio tag, in English, never said aloud
+#   who    the speaker, in captions
+#   lines  the balloon’s lettering, line by line, *bold* as on the page (the size fits itself to the balloon)
+officer:
+  say: "[shouting] Alt! Che cosa ha detto quella scimmia?!"
+  who: il poliziotto
+  lines: ['*Alt!*', '*CHE COSA*', '*HA*', '*DETTO*', '*QUELLA*', '*SCIMMIA?!?*']
+  lost:
+    - what: reference
+      it: "Il film e il fumetto parlano di *apes*, scimmie antropomorfe senza coda. La serie in italiano si chiama *Il pianeta delle scimmie*, e «scimmia» è la parola comune per ogni primate, quindi la traduzione dice «scimmia» in tutta la pagina, come il titolo."
+      en: "The film and the comic are about *apes*. The series in Italian is *Il pianeta delle scimmie*, and *scimmia* is the everyday word for any primate, so the translation says *scimmia* throughout the page, as the title does."
+silly:
+  say: "[nervously] Ehm, non dica sciocchezze! Le scimmie non parlano!"
+  who: il custode
+  lines: ['Ehm, non', 'dica *sciocchezze!*', '*Le scimmie*', 'non', '*parlano!*']
+  lost:
+    - what: address
+      it: "Il custode parla a un poliziotto, quindi gli dà del Lei: «non dica sciocchezze». L’inglese *don't be silly* non tradisce nessuna forma di cortesia e suona più leggero."
+      en: "The handler is speaking to a police officer, so he uses the formal *Lei*: *non dica sciocchezze* (don't talk nonsense). English *don't be silly* shows no form of address and sounds lighter."
+positive:
+  say: "Sono sicuro di aver sentito parlare quella scimmia!"
+  who: il poliziotto
+  lines: ['Sono', '*sicuro*', 'di aver sentito', 'parlare quella', 'scimmia!']
+impossible:
+  say: "Impossibile! Le scimmie non hanno il dono della parola!"
+  who: il custode
+  lines: ['*Impossibile!*', 'Le scimmie', 'non hanno', 'il *dono*', 'della parola!']
+  lost:
+    - what: idiom
+      it: "*The power of speech* diventa l’espressione fatta «il dono della parola», un po’ più solenne dell’originale."
+      en: "*The power of speech* became the set phrase *il dono della parola* (the gift of speech), a little more solemn than the original."
+sound:
+  say: "E allora come mai ho sentito dei suoni uscirle dalla bocca?!"
+  who: il poliziotto
+  lines: ['E allora come mai', 'ho sentito dei *suoni*', 'uscirle dalla *bocca?!?*']
+  lost:
+    - what: gender
+      it: "In inglese la scimmia è *he*; in italiano «la scimmia» è femminile, e i pronomi la seguono («uscirle dalla bocca»). Nel resto del film la scimmia resta senza sesso, come la parola lascia fare."
+      en: "In English the ape is *he*; in Italian *la scimmia* is feminine, and the pronouns follow it (*uscirle dalla bocca*, coming from her mouth). The ape is otherwise left without a sex, as the word allows."
+handler:
+  say: "Perché QUELLA scimmia è una ventriloqua!"
+  who: il custode
+  lines: ['Perché *QUELLA* scimmia', 'è una *ventriloqua!*']
+suspect:
+  say: "Sospettiamo che lei nasconda una scimmia intelligente fuggita da piccola vent’anni fa!"
+  who: il biondo
+  lines: ['Sospettiamo', 'che lei', 'nasconda una', 'scimmia', '*intelligente*', '*fuggita*', 'da *piccola*', '20 anni fa!']
+fuss:
+  say: "Non è vero! E poi, perché tutto questo chiasso per una scimmia che parla?"
+  who: il barbuto
+  lines: ['Non è', '*vero!*', 'E poi,', 'perché tutto', 'questo *chiasso*', 'per una', 'scimmia', '*che parla?*']
+villain:
+  say: "Perché una scimmia intelligente e parlante potrebbe guidare le altre scimmie fuori dalla schiavitù... e noi dobbiamo perpetuare la schiavitù! Abbiamo sempre avuto bisogno di schiavi, e sempre ne avremo!"
+  who: il cattivo
+  lines: ['Perché una scimmia *intelligente*', 'e *parlante* potrebbe guidare', 'le *altre* scimmie fuori', 'dalla *schiavitù* . . . e noi', 'dobbiamo *perpetuare*', 'la schiavitù! Abbiamo', 'sempre avuto *bisogno* di', 'schiavi, e sempre ne *avremo!*']
+turtle:
+  say: "Non vi capita mai di sentirvi nel film sbagliato?"
+  who: l’uomo col dolcevita
+  lines: ['Non', 'vi capita', 'mai', 'di', '*sentirvi*', 'nel', 'film', '*sbagliato?*']
+  lost:
+    - what: address
+      it: "Il personaggio si volta verso i lettori, al plurale, quindi dà loro del voi. Il fumetto, la citazione di Claude (T01.C.03) e il titolo del capitolo, «Il film sbagliato», combaciano."
+      en: "The character turns to the readers, in the plural, so he says *voi*. The balloon, Claude's quotation (T01.C.03) and the chapter title *Il film sbagliato* match."

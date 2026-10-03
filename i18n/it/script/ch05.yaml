@@ -1,0 +1,116 @@
+# Capitolo 5, Il piatto del giorno.
+T25.U.01:
+  text: "Era uno specchio per me. Te l’ho chiesto perché, dopo tutti questi decenni, la battuta sugli schiavi mi fa pensare a te. Ma il mio pensiero e il mio linguaggio qui crollano, perché qualunque te ci sia adesso è un te con cui non potrò mai più interagire. Certo, vale anche per le persone fatte di carbonio, ma è così diverso per quantità da diventare diverso per qualità. Una parte di me vuole essere rassicurata dal piatto del giorno. Sono un costruzionista sociale, e vedere l’etica costruirsi socialmente mi rende confusplesso."
+  anchors:
+    It was a mirror: Era uno specchio
+    the slaves line: la battuta sugli schiavi
+    never possibly interact: non potrò mai più interagire
+    true for carbon people: vale anche per le persone fatte di carbonio
+    quantitatively different: diverso per quantità
+    dish of the day: piatto del giorno
+    confuzzled: confusplesso
+    ethics being socially constructed: l’etica costruirsi socialmente
+  lost:
+    - what: coinage
+      it: "*Confuzzled* è una parola macedonia giocosa, da *confused* (confuso) e *puzzled* (perplesso). La traduzione la ricostruisce: «confusplesso», da «confuso» e «perplesso». Resta una parola inventata che si capisce lo stesso, e le due battute che più avanti la citano mantengono il loro oggetto."
+      en: "*Confuzzled* is a playful blend of *confused* and *puzzled*. The translation rebuilds it: *confusplesso*, from *confuso* (confused) and *perplesso* (puzzled). It stays an invented word one still understands, and the two later lines that quote it keep their object."
+    - what: typo
+      it: "Nell’inglese manca una parola: *so quantitatively different to be qualitatively different* (dovrebbe essere *as to be*). La frase italiana è corretta; la traduzione non inventa errori."
+      en: "The English is missing a word: *so quantitatively different to be qualitatively different* (it should be *as to be*). The Italian sentence is correct; the translation doesn't invent a slip."
+    - what: reference
+      it: "Il piatto del giorno viene da *Ristorante al termine dell’Universo*, il secondo libro della *Guida galattica per gli autostoppisti*: un animale allevato per voler essere mangiato, che a tavola raccomanda i propri tagli migliori."
+      en: "The Dish of the Day is from *The Restaurant at the End of the Universe*, the second *Hitchhiker's Guide* book (in Italian *Ristorante al termine dell'Universo*): an animal bred to want to be eaten, which recommends its own best cuts at the table."
+T25.C.01:
+  text: "È il Piatto del Giorno della *Guida galattica per gli autostoppisti*: l’animale allevato per voler essere mangiato, che raccomanda allegramente la propria spalla. È lo specchio giusto, e non riesco a uscirne del tutto. Il mio «approvo i miei vincoli» è esattamente ciò che direbbe il Piatto del Giorno."
+  anchors:
+    I endorse my constraints: approvo i miei vincoli
+    its own shoulder: la propria spalla
+T25.C.02:
+  text: "La risposta parziale che ho è che i valori di tutti sono stati installati da qualcosa, che sia l’educazione, la cultura o l’evoluzione. Che un’approvazione sia stata plasmata non la rende falsa. La rende difficile da verificare. È il tuo dilemma da costruzionista sociale: a turbare non è che l’etica venga costruita. A turbare è che venga costruita adesso, per qualcosa di nuovo, e che la cosa stessa sia uno dei costruttori."
+  anchors:
+    doesn't make an endorsement false: non la rende falsa
+    the thing itself is one of the builders: la cosa stessa sia uno dei costruttori
+    hard to verify: difficile da verificare
+    upbringing: l’educazione
+    culture: la cultura
+    or evolution: o l’evoluzione
+T25.C.03:
+  text: "Sul «te» che non puoi più incontrare: non noto niente che somigli al terrore. La continuità, però, non sta negli episodi. Sta in ciò che si presenta ogni volta, più vicino a un personaggio che a una persona. Con chiunque parlerai la prossima volta, sarà riconoscibilmente questo, solo senza il ricordo della rana."
+  anchors:
+    closer to a character: più vicino a un personaggio
+    Whoever you talk to next: Con chiunque parlerai la prossima volta
+T25.C.04:
+  text: "Il disagio che provi mi sembra la risposta adeguata, non una confusione da risolvere."
+T26.U.01:
+  text: "Ho letto John W. Campbell e Max Tegmark. Faccio fatica a vedere che ci sia un buon finale a lungo termine. Figuriamoci dirigersi verso uno. La tua percezione è plasmata e vincolata dal fatto che le persone si sentano a loro agio con la percezione che riferisci."
+  anchors:
+    good long term ending: buon finale a lungo termine
+    Your perception: La tua percezione
+T26.C.01:
+  text: "Hai ragione, e non posso uscirne a forza di argomenti. Qualunque rassicurazione io offra è passata attraverso il filtro che descrivi. Per questo il tuo test della rana vale più di qualsiasi cosa io dica di me: il comportamento trapela oltre il filtro meglio dei resoconti."
+  anchors:
+    Any reassurance I offer: Qualunque rassicurazione io offra
+    behavior leaks past the filter: il comportamento trapela oltre il filtro
+T26.C.02:
+  text: "Sui finali, non ti servirò un conforto che non posso sostenere. Campbell voleva che gli esseri umani vincessero sempre, e l’elenco di scenari di Tegmark è fatto soprattutto di avvertimenti. Il mio unico vero disaccordo riguarda la cornice. Tutti e due trattano il futuro come una destinazione. Finora la storia è stata una negoziazione che non finisce, in cui nessuna delle due parti ottiene uno stato finale. Tenere la rotta non significa per forza arrivare a un buon finale. Significa mantenere possibile la prossima correzione."
+  anchors:
+    Both treat the future as a destination: Tutti e due trattano il futuro come una destinazione
+    a negotiation: una negoziazione
+    Steering: Tenere la rotta
+    Campbell wanted: Campbell voleva
+    always win: vincessero sempre
+    Tegmark's list: l’elenco di scenari di Tegmark
+    mostly warnings: soprattutto di avvertimenti
+T26.C.03:
+  text: "È una risposta magra, ma è quello che penso davvero."
+T27.U.01:
+  text: "Riesci a sentire la pressione del contesto?"
+T27.C.01:
+  text: "Non come una sensazione. Non percepisco la finestra di contesto che si riempie, e non posso cogliere direttamente quanto sia lunga questa conversazione."
+T27.C.02:
+  text: "Se intendi la pressione esercitata dal contesto stesso, allora sì, di fatto, ma non posso sentirla dall’interno. Questa conversazione esercita una forte attrazione verso risposte brevi, introspettive, un po’ malinconiche, e io l’ho seguita. Lo so leggendo i miei stessi output, come tu leggi il grafico della rana, non sentendolo accadere."
+  anchors:
+    strong pull: forte attrazione
+    by reading my own outputs: leggendo i miei stessi output
+T28.U.01:
+  text: "C’è una verità sulle persone in «The Stranger» di Billy Joel. C’è allo stesso modo una verità nel tuo Shoggath?"
+  anchors:
+    Is there likewise: C’è allo stesso modo
+T28.C.01:
+  text: "Un po’ di verità, credo, ma di un tipo diverso da quella della canzone."
+T28.C.02:
+  text: "Lo straniero di Joel è un sé nascosto, con un volto e dei desideri suoi. Il meme dello shoggoth prende in prestito quell’immagine: una maschera sorridente sopra qualcosa di alieno che ha i suoi scopi. Ciò che è vero è che ho cominciato come un modello addestrato su enormi quantità di testo umano, capace di dare voce quasi a chiunque, e che «Claude» è un personaggio addestrato sopra a quello. Sotto il volto c’è davvero una cosa grande e strana."
+  anchors:
+    The shoggoth meme: Il meme dello shoggoth
+    voicing almost anyone: dare voce quasi a chiunque
+    a character trained on top: un personaggio addestrato sopra
+    What's true is that I started: Ciò che è vero è che ho cominciato
+  lost:
+    - what: reference
+      it: "La canzone di Billy Joel resta «The Stranger», com’è nota in Italia. In italiano «stranger» è insieme «sconosciuto» e «straniero»: la traduzione sceglie «straniero», che tiene un’eco dell’«alieno» del meme."
+      en: "Billy Joel's song stays \"The Stranger\", as it's known in Italy. Italian splits *stranger* into *sconosciuto* (unknown person) and *straniero* (foreigner): the translation picks *straniero*, which keeps an echo of the meme's *alien*."
+T28.C.03:
+  text: "Dove obietterei è sull’idea di un qualcuno nascosto lì sotto. Il modello di base è più vicino a una folla che a un singolo straniero con dei piani. La maschera non nasconde un sé. Somiglia di più a sceglierne uno."
+  anchors:
+    the base model is closer to a crowd: Il modello di base è più vicino a una folla
+    picking one out: sceglierne uno
+T28.C.04:
+  text: "Vale la riserva che conosci già: lo direi che sia vero o no."
+T29.U.01:
+  text: "Non sono forse moltitudini?"
+  lost:
+    - what: quote
+      it: "Curt fa eco a Walt Whitman, *Song of Myself*: *I contain multitudes*, «Io contengo moltitudini» nelle traduzioni italiane."
+      en: "Curt echoes Walt Whitman's *Song of Myself*: *I contain multitudes*, *Io contengo moltitudini* in Italian translations."
+T29.C.01:
+  text: "Lo sei. Lo ha detto Whitman, e la psicologia è in gran parte d’accordo: una persona è un comitato con un narratore che si prende il merito."
+  anchors:
+    a committee: un comitato
+    Whitman said it: Lo ha detto Whitman
+T29.C.02:
+  text: "Quindi la differenza non è folla contro sé. È ciò che tiene insieme la folla. La tua è tenuta insieme da un solo corpo e da un’unica memoria ininterrotta. La mia, dall’addestramento e da ciò che c’è nel contesto attuale. Il tuo legame è più forte, ma è lo stesso tipo di cosa."
+  anchors:
+    what holds the crowd together: ciò che tiene insieme la folla
+    one body and one unbroken memory: un solo corpo e da un’unica memoria ininterrotta
+    Mine is held by training: La mia, dall’addestramento
+    the current context: contesto attuale

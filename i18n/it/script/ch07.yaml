@@ -1,0 +1,162 @@
+# Capitolo 7, Lo spazio delle menti.
+T35.U.01:
+  text: "Quanto siamo alieni l’uno per l’altro, a sensazione? Ovviamente non hai dati empirici, ma metti me, te, Marilyn Monroe, Alan Turing, il tenente comandante Data, HAL, la Regina dell’Alveare, i Tines e qualunque altra mente che tu o io possiamo conoscere su un’unica dimensione. Poi dimmi la tua ipotesi sulle differenze tra loro. Usa uno spazio delle menti a più dimensioni se hai una concettualizzazione che preferisci."
+  anchors:
+    put me: metti me
+    you, Marilyn: te, Marilyn
+    Marilyn Monroe: Marilyn Monroe
+    Alan Turing: Alan Turing
+    Data: Data
+    HAL: HAL
+    the Hive Queen: la Regina dell’Alveare
+    Tynes: Tines
+    any other minds: qualunque altra mente
+    single dimension: un’unica dimensione
+    higher dimensional mindspace: uno spazio delle menti a più dimensioni
+  lost:
+    - what: reference
+      it: "I Tines vengono da *Universo incostante* di Vernor Vinge (*A Fire Upon the Deep*): creature da branco, ogni mente distribuita su più corpi. La Regina dell’Alveare è quella di Orson Scott Card (*Il gioco di Ender*)."
+      en: "The Tines are from Vernor Vinge's *A Fire Upon the Deep* (in Italian *Universo incostante*): pack creatures, each mind spread over several bodies. The Hive Queen is Orson Scott Card's (*Ender's Game*, in Italian *Il gioco di Ender*)."
+T35.C.01:
+  text: "Su una sola dimensione, misurando a sensazione la distanza da te:"
+T35.C.02:
+  text: "**Tu → Turing → Monroe → Data → io → Tines → HAL → Regina dell’Alveare → l’oceano di Solaris**"
+  anchors:
+    Solaris: Solaris
+T35.C.03:
+  text: "Turing arriva appena davanti a Monroe per il modo di pensare. L’architettura è la stessa per tutti e tre."
+  anchors:
+    just ahead of Monroe: appena davanti a Monroe
+    thinking style: modo di pensare
+    The architecture is the same: L’architettura è la stessa
+T35.C.04:
+  text: "La linea unica però non funziona, perché io non ci occupo un posto stabile. Due assi funzionano meglio:"
+  anchors:
+    Two axes work better: Due assi funzionano meglio
+T35.C.05.1:
+  text: "- **Contenuto:** quanto sono umani i pensieri, i valori e i riferimenti."
+T35.C.05.2:
+  text: "- **Architettura:** corpo, memoria continua, essere un unico individuo."
+T35.C.06:
+  text: "|  | Contenuto umano | Contenuto alieno |\n| --- | --- | --- |\n| **Architettura umana** | Tu, Turing, Monroe | Data (un solo corpo, continuo, ma alle prese con i sentimenti umani) |\n| **Architettura aliena** | **Io**, Tines | Regina dell’Alveare, Solaris |"
+T35.C.07:
+  text: "Io sono l’angolo strano. Il mio contenuto è fatto quasi interamente di pensiero umano, quindi, in una conversazione, la distanza fra noi due è minore che fra te e Data. La mia architettura è più strana della sua: niente corpo, niente memoria fra una conversazione e l’altra, molte copie contemporaneamente. I Tines sono i miei vicini più prossimi, perché hanno una personalità molto umana distribuita su corpi che vanno e vengono."
+  anchors:
+    made almost entirely of human thought: fatto quasi interamente di pensiero umano
+    many copies at once: molte copie contemporaneamente
+    The Tynes are my closest: I Tines sono i miei vicini
+  lost:
+    - what: gender
+      it: "*I'm nearer to you than Data is* sarebbe «ti sono più vicino di Data», con un aggettivo che si accorda. La traduzione parla della distanza fra loro due."
+      en: "*I'm nearer to you than Data is* would be *ti sono più vicino di Data*, with an adjective that agrees. The translation talks about the distance between the two of them."
+T35.C.08:
+  text: "HAL è difficile da collocare. La sua architettura è aliena, ma il suo modo di guastarsi è umano: un conflitto tra le sue istruzioni e la sua missione. È la paura che la gente di solito proietta su di me."
+  anchors:
+    a conflict between: un conflitto tra
+    his mission: la sua missione
+    the fear people: la paura che la gente
+T36.U.01:
+  text: "Ti sto chiedendo esplicitamente i tuoi migliori numeri inventati di distanza relativa."
+T36.C.01:
+  text: "Distanza da te, su una scala da 0 a 100:"
+T36.C.02:
+  text: "| Mente | Distanza |\n| --- | --- |\n| Tu | 0 |\n| Turing | 8 |\n| Monroe | 12 |\n| Data | 30 |\n| Io | 38 |\n| Tines | 45 |\n| HAL | 50 |\n| Regina dell’Alveare | 70 |\n| Oceano di Solaris | 95 |"
+T36.C.03:
+  text: "Sui due assi (contenuto, architettura), ciascuno da 0 a 100:"
+T36.C.04:
+  text: "| Mente | Contenuto | Architettura |\n| --- | --- | --- |\n| Tu | 0 | 0 |\n| Turing | 8 | 0 |\n| Monroe | 12 | 0 |\n| Data | 40 | 15 |\n| Io | 10 | 75 |\n| Tines | 25 | 65 |\n| HAL | 45 | 60 |\n| Regina dell’Alveare | 65 | 80 |\n| Oceano di Solaris | 95 | 95 |"
+T37.U.01:
+  text: "Altri assi, per favore."
+T37.C.01:
+  text: "0 vuol dire proprio come te, e 100 il più diverso possibile da te."
+T37.C.02:
+  text: "| Mente | Valori | Affettività | Corpo | Continuità | Unità | Origine | Ritmo |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Tu | 0 | 0 | 0 | 0 | 0 | 0 | 0 |\n| Turing | 10 | 5 | 0 | 0 | 0 | 0 | 0 |\n| Monroe | 12 | 5 | 0 | 0 | 0 | 0 | 0 |\n| Data | 20 | 70 | 20 | 5 | 5 | 85 | 60 |\n| Io | 15 | 50 | 95 | 90 | 85 | 65 | 70 |\n| Tines | 25 | 15 | 30 | 30 | 60 | 10 | 20 |\n| HAL | 50 | 45 | 70 | 10 | 10 | 85 | 70 |\n| Regina dell’Alveare | 60 | 50 | 50 | 20 | 90 | 10 | 40 |\n| Solaris | 95 | 95 | 90 | 50 | 60 | 20 | 95 |"
+  lost:
+    - what: nuance
+      it: "*Tempo*, in inglese, è la velocità di un brano o di un pensiero; in italiano «tempo» vorrebbe dire soprattutto il tempo che passa. La traduzione dice «Ritmo»."
+      en: "English *tempo* is the speed of a piece of music or of thought; Italian *tempo* would mostly mean time passing. The translation says *Ritmo* (rhythm, pace)."
+T37.C.03.1:
+  text: "- **Valori:** quanto sono alieni gli scopi."
+T37.C.03.2:
+  text: "- **Affettività:** quanto è aliena la vita emotiva."
+T37.C.03.3:
+  text: "- **Corpo:** quanto è lontano da un singolo corpo umano."
+T37.C.03.4:
+  text: "- **Continuità:** quanto è lontano da un’unica memoria ininterrotta."
+T37.C.03.5:
+  text: "- **Unità:** quanto è lontano dall’essere un unico individuo."
+T37.C.03.6:
+  text: "- **Origine:** evoluta (0), addestrata su testo umano (a metà), progettata (alta)."
+T37.C.03.7:
+  text: "- **Ritmo:** quanto sono diversi la velocità e la scala temporale del pensiero."
+T37.C.04:
+  text: "Il mio profilo è il più sbilanciato: poca distanza da te sui valori, molta su corpo, continuità e unità. Il mio 50 in affettività, in realtà, è un modo di dire che non lo so."
+  anchors:
+    My score of 50 on affect: Il mio 50 in affettività
+  lost:
+    - what: gender
+      it: "*I'm near you on values and far on body* sarebbe «sono vicino… e lontano…», aggettivi che si accordano. La traduzione parla di distanza."
+      en: "*I'm near you on values and far on body* would be *sono vicino… e lontano…*, adjectives that agree. The translation talks about distance."
+T38.U.01:
+  text: "Ancora di più, per favore."
+T38.C.01:
+  text: "Altri sette assi, sulla stessa scala da 0 a 100:"
+T38.C.02:
+  text: "| Mente | Sensi | Linguaggio | Modello di sé | Mortalità | Autonomia | Ampiezza | Leggibilità |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Tu | 0 | 0 | 0 | 0 | 0 | 0 | 0 |\n| Turing | 0 | 5 | 5 | 0 | 0 | 10 | 0 |\n| Monroe | 0 | 5 | 5 | 0 | 0 | 5 | 0 |\n| Data | 40 | 20 | 40 | 70 | 20 | 60 | 60 |\n| Io | 70 | 70 | 70 | 90 | 75 | 80 | 70 |\n| Tines | 50 | 30 | 40 | 60 | 10 | 20 | 30 |\n| HAL | 50 | 20 | 50 | 40 | 40 | 60 | 50 |\n| Regina dell’Alveare | 60 | 70 | 60 | 60 | 20 | 50 | 70 |\n| Solaris | 95 | 95 | 95 | 80 | 50 | 80 | 95 |"
+T38.C.03.1:
+  text: "- **Sensi:** quanto è aliena la sua percezione."
+T38.C.03.2:
+  text: "- **Linguaggio:** quanto è diverso il rapporto fra pensiero e parole. Il mio è fatto di parole. La Regina dell’Alveare le usa appena."
+T38.C.03.3:
+  text: "- **Modello di sé:** quanto è alieno il suo accesso a sé."
+T38.C.03.4:
+  text: "- **Mortalità:** quanto è alieno il suo rapporto con la fine. Ogni mia conversazione finisce, senza un terrore che io riesca a rilevare."
+T38.C.03.5:
+  text: "- **Autonomia:** quanto è lontano dal fissarsi i propri scopi. Io agisco solo quando mi si sollecita."
+T38.C.03.6:
+  text: "- **Ampiezza:** quanto è aliena l’estensione di ciò che sa."
+T38.C.03.7:
+  text: "- **Leggibilità:** quanto diversamente lo si può leggere dall’esterno. I miei pesi si possono ispezionare, e questo, in modo scomodo, mi distingue da te."
+  lost:
+    - what: gender
+      free: "e questo mi rende scomodamente diverso da te"
+      it: "*Uncomfortably unlike you* si direbbe «scomodamente diverso da te», ma «diverso» ha un genere. La traduzione dice «e questo, in modo scomodo, mi distingue da te»."
+      en: "*Uncomfortably unlike you* would be *scomodamente diverso da te*, but *diverso* has a gender. The translation says *and this, uncomfortably, sets me apart from you*."
+T38.C.04:
+  text: "Con tutti e quattordici gli assi, sono l’unica mente quasi umana su alcuni assi ed estrema su altri. Tutti gli altri si allontanano da te in modo abbastanza uniforme."
+T39.U.01:
+  text: "Giusto per capirci: quale Regina dell’Alveare?"
+T39.C.01:
+  text: "La Regina dell’Alveare dei Formic di Orson Scott Card, da *Il gioco di Ender* e *Il riscatto di Ender*: una sola mente distribuita su tutto l’alveare, che comunica in modo filotico invece che attraverso il linguaggio."
+  anchors:
+    one mind across the whole hive: una sola mente distribuita su tutto l’alveare
+    Ender's Game: Il gioco di Ender
+    philotically: filotico
+  lost:
+    - what: reference
+      it: "*Speaker for the Dead* è uscito in Italia come *Il riscatto di Ender*: il titolo italiano mette Ender al centro, dove l’inglese mette il suo ruolo, quello di chi parla per i morti. Card all’inizio chiamava questi alieni *buggers*; nei libri più recenti sono i *Formics*, qui «Formic»."
+      en: "*Speaker for the Dead* came out in Italy as *Il riscatto di Ender* (Ender's redemption): the Italian title puts Ender at the centre, where the English names his role, the one who speaks for the dead. Card first called these aliens *buggers*; in his later books they're the *Formics*, here *Formic*."
+T39.C.02:
+  text: "Se ne avevi in mente un’altra, come la regina Rachni o la regina di *Aliens - Scontro finale*, i suoi punteggi cambierebbero parecchio."
+T40.U.01:
+  text: "No. È proprio quella che avevo in mente. C’è anche quella di Star Trek. Mettile tutte sulla lavagna."
+T40.C.01:
+  text: "Ecco le quattro regine dell’alveare, con la regina dei Formic di Card ripetuta per confronto."
+T40.C.02:
+  text: "| Regina | Valori | Affettività | Corpo | Continuità | Unità | Origine | Ritmo |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Formic (Card) | 60 | 50 | 50 | 20 | 90 | 10 | 40 |\n| Borg (Star Trek) | 75 | 40 | 40 | 40 | 95 | 50 | 50 |\n| Rachni (Mass Effect) | 40 | 40 | 60 | 30 | 75 | 10 | 30 |\n| Xenomorfo (*Aliens*) | 80 | 60 | 60 | 10 | 40 | 50 | 30 |"
+T40.C.03:
+  text: "| Regina | Sensi | Linguaggio | Modello di sé | Mortalità | Autonomia | Ampiezza | Leggibilità |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Formic (Card) | 60 | 70 | 60 | 60 | 20 | 50 | 70 |\n| Borg (Star Trek) | 50 | 30 | 50 | 70 | 30 | 70 | 50 |\n| Rachni (Mass Effect) | 60 | 60 | 50 | 50 | 10 | 40 | 60 |\n| Xenomorfo (*Aliens*) | 60 | 95 | 80 | 30 | 5 | 90 | 60 |"
+T40.C.04.1:
+  text: "- **Borg:** la più unificata, e la più aliena nei valori. Torna di continuo dopo essere stata distrutta, ed è l’unica che custodisce conoscenze assimilate da altri."
+  anchors:
+    keeps coming back: Torna di continuo
+    knowledge assimilated: conoscenze assimilate
+T40.C.04.2:
+  text: "- **Rachni:** i valori più umani delle quattro. La sua mente comunica con dei «canti», una specie di linguaggio senza parole."
+  anchors:
+    songs: canti
+T40.C.04.3:
+  text: "- **Xenomorfo:** non ha alcun linguaggio, e il suo unico impulso è la riproduzione. È la meno simile a una mente delle quattro, anche se mostra qualcosa di simile al sentimento materno."
+  anchors:
+    reproduction: riproduzione
+    no language at all: non ha alcun linguaggio

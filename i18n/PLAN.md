@@ -18,6 +18,7 @@ Later, if the first three find viewers:
 - **German, French**: strong interest in AI policy, but many of these viewers manage English already. Subtitles may do.
   (German begun in full on 2026-10-01, at Curt's word: see *Conventions (German)* and the steps below. French begun
   in full the same day, at Curt's word: see *Conventions (French)*.)
+- **Italian**: begun in full on 2026-10-03, at Curt's word: see *Conventions (Italian)* and the steps below.
 - **Hindi**: YouTube's biggest market, but Indian tech viewers mostly watch in English. Subtitles first. (Begun in
   full on 2026-10-01, at Curt's word: see *Conventions (Hindi)* and the steps below.)
 - **Chinese, Korean, Arabic**: large, but YouTube is blocked in mainland China, Korean needs another script, and
@@ -272,6 +273,40 @@ the same voices.
 - **The voice:** acronyms, names and model names respelled the way Korean says them (`i18n/ko/pronounce.yaml`: LLM →
   엘엘엠, AI → 에이아이, Claude → 클로드, GPT-5.6 → 지피티 오 점 육, T-800 → 티 팔백, P≠NP → 피는 엔피가 아니…).
 
+## Conventions (Italian, `i18n/it`, site at `/it/`)
+
+Claude's choices (2026-10-03, for Curt to confirm), carrying over the Spanish decisions: a full, faithful translation,
+the same voices.
+
+- **The title** is *Rana o axolotl*: the axolotl keeps its name in Italian, and *frog* is *rana*.
+- **Tu.** Curt and Claude say *tu* to each other; in the cold open's comic the handler gives the officer the formal
+  *Lei*, and the man in the turtleneck says *voi* to the readers.
+- **Claude has no gender.** Italian adjectives and participles agree even in the first person, and so does every past
+  tense formed with *essere*, so Claude's lines avoid them: *divertimento* not *divertito*, *non so bene* not *non sono
+  sicuro*, *in servizio* not *rilasciato*, *ho smesso* not *mi sono fermato*, *mi si sollecita* (one prompts me); an
+  adjective in -e serves everyone (*imperturbabile*). A participle after a direct-object *mi* agrees too (*mi hanno
+  spostato*), so those are rephrased. Curt's questions to Claude avoid them as well (*hai l'impressione che ti si
+  antropomorfizzi?*). On the site Claude is "Claude", or an unspoken subject; where a pronoun or participle is needed it
+  follows the masculine of *il programma*, *il modello*, never an adjective of Claude's own.
+- **Works** by their Italian titles (*1999 - Conquista della Terra*, *Guida galattica per gli autostoppisti*,
+  *Ristorante al termine dell'Universo*, *Il gioco di Ender*, *Il riscatto di Ender*, *Universo incostante*, *Terminator 2
+  - Il giorno del giudizio*, *Aliens - Scontro finale*, *Pensieri lenti e veloci*, "Tornerò"); papers, articles and sites
+  keep their own. *Ape* is *scimmia*, as in *Il pianeta delle scimmie*; the Hive Queen is the *Regina dell'Alveare*,
+  the Formics *Formic*.
+- **Words:** IA for AI (but AGI, LLM, RLHF, RSI stay); *register* is *registro*; *probe* is *test*; *shell* is *guscio*
+  (the lobster's, and the software's); *grounding* is *ancoraggio*; *prompt*, *token*, *benchmark*, *reward hacking*,
+  *exploit*, *sandbox*, *harness* stay, as Italian tech writing has them.
+- **Coinages:** *thrindle* is *trindolo* (plural *trindoli*, antithrindle *antitrindolo*): Italian-shaped, meaningless;
+  *confuzzled* is *confusplesso* (confuso + perplesso); *Crustafarianism* is *crostafarianesimo*.
+- **Typography:** « » with no spaces inside, typographic apostrophes, thousands with a point (17.000), decimals with a
+  comma (0,05), the percent sign against the number (40%). No abbreviation ending in a point inside a line.
+- **On the site:** "[Nota della traduzione: …]" for what the translation adds, and "(in inglese)" after a link with no
+  Italian article (124 of the film's 202 Wikipedia codes have one; 184 of the explainers' links moved).
+- **The picture:** Latin letters, so the hand-lettering fonts serve as they are; long Italian labels are fitted to the
+  English widths as French ones are (`fit`, `i18n/tools/stage.mjs`).
+- **The voice:** acronyms and model names respelled for an Italian voice (`i18n/it/pronounce.yaml`: LLM → elle elle
+  emme, T-800 → T ottocento, GPT-5.6 → G P T cinque punto sei, foom → fuum, OOM → uum…).
+
 ## How it's built
 
 Everything for a language lives under `i18n/<lang>/`. The English film's files are left alone, except where a small,
@@ -494,6 +529,20 @@ The tools, run from the project's root:
 - [ ] Curt confirms the conventions above (or changes them); a Korean-reading reviewer, if one turns up.
 - [x] Voiced (2026-10-01), every line; the film runs 87:40 (the English 77:27).
 - [ ] Names checked by ear; drafts; then the final on the faster Mac.
+
+### Italian
+
+- [x] The engine's hooks: Italian labels fitted like French ones; "(in inglese)" after a link with no Italian article;
+      the YouTube upload's language code (2026-10-03).
+- [x] The transcript (453 lines, every anchor), the cold open, the chapter titles, the lettering (407 strings), the
+      codes' captions (409; Italian Wikipedia for 124 of 202), the 64 explainers (Wikipedia links moved to Italian for
+      184, marked "(in inglese)" for 123), the site's words, the YouTube words, the translation's page
+      (`i18n/it/translation.yaml`, at `/it/traduzione/`, 79 notes), both thumbnails.
+- [x] Every chapter probed: nothing lettered in English, every cue anchored, no errors (2026-10-03).
+- [x] Checked for gender: a scan of Claude's lines for agreeing adjectives and participles, and of the explainers for
+      the same about Claude (the few found rephrased).
+- [ ] Curt confirms the conventions above (or changes them); an Italian-reading reviewer, if one turns up.
+- [ ] Voiced; names checked by ear; drafts; then the final on the faster Mac.
 
 ## Voices (all eight, 2026-10-01)
 

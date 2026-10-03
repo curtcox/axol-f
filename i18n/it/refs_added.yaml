@@ -1,0 +1,6 @@
+# Codes only the Italian film has, in script/refs.yaml’s form (i18n/tools/stage.mjs adds them to the stage’s).
+#
+# The translation’s own page (i18n/tools/lost.mjs → the Italian site’s traduzione/): how the film was translated, how
+# else it could have been, and what a freer translation would have said, in Italian and English. Its code goes up on the
+# ventriloquist line, as in the other translations: in a dubbed film someone else really is doing the talking.
+- { id: traduzione, url: "https://curtcox.github.io/axol-f/it/traduzione/", host: traduzione/, caption: "Come è stato tradotto il film, e che cosa si è perso", origin: added, at: T03.C.03.1, cue: "presumibilmente è qualcun altro", mode: shelf, style: note }

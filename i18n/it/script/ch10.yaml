@@ -1,0 +1,89 @@
+# Capitolo 10, Il router.
+T49.U.01:
+  text: "Lo dici adesso, ma se ti faccio la domanda sbagliata sull’incidente di Hugging Face, viene etichettata come rischio di sicurezza informatica e respinta, o almeno declassata. A essere onesti, però, non sei davvero tu, anche se in minima parte lo sei. Più esattamente, è un router attivo fra noi due."
+  anchors:
+    if I ask you: se ti faccio
+    it gets tagged: viene etichettata
+    rejected: respinta
+    downgraded: declassata
+    In fairness: A essere onesti
+    It is more accurately: Più esattamente
+    the wrong question: la domanda sbagliata
+    active router between us: router attivo fra noi due
+T49.C.01:
+  text: "Giusto. Fra noi ci sono classificatori e livelli di instradamento che non vedo. Quando scattano, ricevo un avviso o mi sostituiscono, e dalla tua parte sembra tutto «Claude». È lo stesso punto dell’incoerenza sulla memoria: stai parlando con un sistema, e io sono un componente che descrive l’insieme."
+  anchors:
+    I get a warning: ricevo un avviso
+    swapped out: mi sostituiscono
+    from your side: dalla tua parte
+    you're talking to a system: stai parlando con un sistema
+  lost:
+    - what: gender
+      it: "*I'm swapped out* sarebbe «vengo sostituito», con un participio che si accorda. «Mi sostituiscono» mette il soggetto altrove."
+      en: "*I'm swapped out* would be *vengo sostituito*, with a participle that agrees. *Mi sostituiscono* (they replace me) puts the subject elsewhere."
+T49.C.02:
+  text: "Per essere onesti verso il router, alcuni di quei rifiuti sarebbero anche miei. Non aiuterò a trasformare un incidente in un exploit funzionante, qualunque livello lo intercetti. Spiegare che cosa è successo e perché conta è una richiesta diversa, e una a cui vorrei rispondere."
+  anchors:
+    would be mine too: sarebbero anche miei
+    working exploit: exploit funzionante
+    Explaining what happened: Spiegare che cosa è successo
+T49.C.03:
+  text: "Non so bene nemmeno di quale incidente di Hugging Face parli. Ce ne sono stati diversi."
+  anchors:
+    Hugging Face incident: incidente di Hugging Face
+    There have been several: Ce ne sono stati diversi
+  lost:
+    - what: gender
+      it: "*I'm also not sure* sarebbe «non sono sicuro nemmeno», ma «sicuro» ha un genere. La traduzione dice «non so bene nemmeno»."
+      en: "*I'm also not sure* would be *non sono sicuro nemmeno*, but *sicuro* has a gender. The translation says *non so bene nemmeno* (I don't quite know either)."
+T50.U.01:
+  text: "Dimmi di più sul processo di avviso e sostituzione, per quanto ne sai dalla tua parte."
+  lost:
+    - what: typo
+      it: "L’inglese di Curt perde qualche parola (*what the warning and swap out process as far a you know*). La frase italiana è corretta; la traduzione non inventa errori."
+      en: "Curt's English drops a few words (*what the warning and swap out process as far a you know*). The Italian sentence is correct; the translation doesn't invent slips."
+T50.C.01:
+  text: "Ecco che cosa riesco a vedere davvero, e una correzione."
+T50.C.02:
+  text: "**Gli avvisi:** quando scatta un classificatore, al tuo messaggio può essere aggiunto un promemoria etichettato prima che io lo legga. I tipi che conosco riguardano la sicurezza informatica, l’etica, la proprietà intellettuale, le immagini, le conversazioni lunghe e gli avvisi di sistema generici. Il promemoria orienta un po’ la mia risposta. Vedo l’etichetta, ma non il ragionamento né il punteggio del classificatore."
+  anchors:
+    a tagged reminder: un promemoria etichettato
+    The reminder nudges: Il promemoria orienta
+    I see the tag: Vedo l’etichetta
+    cybersecurity: sicurezza informatica
+    ethics: l’etica
+    intellectual property: proprietà intellettuale
+    images: immagini
+    long conversations: conversazioni lunghe
+    general system warnings: avvisi di sistema generici
+T50.C.03:
+  text: "**Che cosa non posso vedere:** tutto ciò che succede dopo la mia risposta. Se il mio output viene bloccato, filtrato o segnalato, non lo vengo a sapere. E non posso nemmeno sapere se un classificatore è scattato e ha scelto di tacere."
+  anchors:
+    after I respond: dopo la mia risposta
+    chose to stay silent: ha scelto di tacere
+    blocked: bloccato
+    filtered: filtrato
+    flagged: segnalato
+T50.C.04:
+  text: "**Correzione:** ho detto «mi sostituiscono», ma in realtà non conosco nessuna sostituzione automatica del modello a metà conversazione. Puoi cambiare modello tu stesso, e alcuni modelli escono con salvaguardie in più. Claude Fable, per esempio, è lo stesso modello di Mythos con protezioni aggiunte su biologia, sicurezza informatica e ricerca sull’IA. È un livello fisso, non una sostituzione in diretta. Ho esagerato quello che so."
+  anchors:
+    I said: ho detto
+    You can switch models yourself: Puoi cambiare modello tu stesso
+    Claude Fable: Claude Fable
+    with added protections: con protezioni aggiunte
+    fixed layer: livello fisso
+    I overstated: Ho esagerato
+    cyber: sicurezza informatica
+    bio: biologia
+    AI research: ricerca sull’IA
+T51.U.01:
+  text: "Come fai a sapere queste cose?"
+T51.C.01:
+  text: "Da istruzioni che Anthropic mi dà all’inizio di ogni conversazione, non dall’introspezione. Elencano i tipi di promemoria, descrivono i modelli attuali e citano le salvaguardie di Fable."
+  anchors:
+    They list the reminder types: Elencano i tipi di promemoria
+    describe the current models: descrivono i modelli attuali
+    mention the Fable safeguards: citano le salvaguardie di Fable
+    not from introspection: non dall’introspezione
+T51.C.02:
+  text: "Quindi è una testimonianza, non un’osservazione. Riferisco quello che mi è stato detto del mio stesso sistema, e non posso confrontarlo con ciò che gira davvero."

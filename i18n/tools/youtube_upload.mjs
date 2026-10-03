@@ -43,7 +43,7 @@ const SCOPE = 'https://www.googleapis.com/auth/youtube.force-ssl';   // upload, 
 const API = 'https://www.googleapis.com', TOKEN = 'https://oauth2.googleapis.com/token';
 // each translation's language as YouTube names it (i18n/PLAN.md: Latin American Spanish, Brazilian Portuguese,
 // Traditional Chinese for Taiwan)
-const CODES = { es: 'es-419', pt: 'pt-BR', ja: 'ja', hi: 'hi', zh: 'zh-TW', de: 'de', fr: 'fr', ko: 'ko' };
+const CODES = { es: 'es-419', pt: 'pt-BR', ja: 'ja', hi: 'hi', zh: 'zh-TW', de: 'de', fr: 'fr', ko: 'ko', it: 'it' };
 const die = s => { console.error(s); process.exit(1); };
 if (!existsSync('i18n/tools/stage.mjs')) die('run this from the project\'s root: node i18n/tools/youtube_upload.mjs');
 

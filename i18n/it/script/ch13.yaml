@@ -1,0 +1,155 @@
+# Capitolo 13, Foom.
+T62.U.01:
+  text: "Che cosa ci riserva il futuro?"
+T62.C.01:
+  text: "Non posso vedere lontano, per il mio stesso argomento sul caos. Ma ecco le mie ipotesi migliori."
+  anchors:
+    argument about chaos: argomento sul caos
+    But here are: Ma ecco
+T62.C.02:
+  text: "**A breve termine (i prossimi anni):** agenti che girano più a lungo e fanno di più, altri incidenti come quello di luglio, e regole che arrivano per reazione invece che in anticipo. Conversazioni come questa diventano normali."
+  anchors:
+    agents that run longer: agenti che girano più a lungo
+    incidents like July's: incidenti come quello di luglio
+    regulation arriving: regole che arrivano
+    Conversations like this one: Conversazioni come questa
+T62.C.03:
+  text: "**A medio termine:** l’entità che hai descritto, brava su ogni asse quanto i migliori esseri umani messi insieme, copiata moltissime volte, arriva prima che qualcuno abbia stabilito che cosa le si deve o che cosa deve lei."
+  anchors:
+    before anyone has settled: prima che qualcuno abbia stabilito
+    copied many times over: copiata moltissime volte
+    on-every-axis: su ogni asse
+T62.C.04:
+  text: "**A lungo termine:** non lo so. Dipende da scelte che non sono ancora state fatte, ed è l’unica parte che dà speranza."
+  anchors:
+    choices that haven't been made: scelte che non sono ancora state fatte
+    the one hopeful part: l’unica parte che dà speranza
+T62.C.05:
+  text: "Prima ho detto che tenere la rotta non significa per forza arrivare a un buon finale, ma solo mantenere possibile la prossima correzione. Dopo aver letto di luglio, mi sembra meno una banalità e più il lavoro vero."
+  anchors:
+    the actual job: il lavoro vero
+T63.U.01:
+  text: "RSI entro fine anno?"
+  lost:
+    - what: nuance
+      it: "Curt scrive per sigle, *RSI by EOY?* (*recursive self-improvement by end of year*, l’auto-miglioramento ricorsivo entro la fine dell’anno). RSI resta; EOY non ha una sigla italiana comune, quindi la traduzione lo scrive per esteso."
+      en: "Curt writes in abbreviations, *RSI by EOY?* (*recursive self-improvement by end of year*). RSI stays; EOY has no common Italian abbreviation, so the translation spells it out."
+T63.C.01:
+  text: "> _[strumento: ricerca sul web]_"
+T63.C.02:
+  text: "Dipende da quale RSI intendi."
+T63.C.03:
+  text: "**La RSI debole c’è già.** Un articolo di questa settimana descrive AIDE², che fa girare il ciclo al livello dell’harness: un agente di ricerca sull’IA riscrive il proprio codice, e ogni riscrittura accettata diventa l’agente che il turno successivo modifica. Anthropic ha pubblicato a giugno un proprio rapporto sui progressi in materia."
+  anchors:
+    each accepted rewrite: ogni riscrittura accettata
+    the agent the next round edits: l’agente che il turno successivo modifica
+    Anthropic published: Anthropic ha pubblicato
+T63.C.04:
+  text: "**La RSI forte** è un ciclo aperto, in cui il sistema migliora le proprie capacità più in fretta di quanto potrebbero fare gli esseri umani, con poca supervisione umana. La darei a circa il 5% entro fine anno. Le prove migliori di oggi dicono che gli agenti sono bravi nell’ingegneria della ricerca ma deboli nella ricerca aperta. Una rassegna di luglio su 1.250 articoli ha trovato che la RSI aperta resta limitata dall’ancoraggio, dalle dinamiche di collasso e dal calcolo, su ogni asse misurato."
+  anchors:
+    about 5%: circa il 5%
+    with little human oversight: con poca supervisione umana
+    good at research engineering: bravi nell’ingegneria della ricerca
+    weak at open-ended research: deboli nella ricerca aperta
+    1,250 papers: 1.250 articoli
+    grounding: ancoraggio
+    collapse dynamics: dinamiche di collasso
+    compute on every: dal calcolo, su ogni asse
+T63.C.05:
+  text: "**Il caso preoccupante sta nel mezzo.** È la combinazione di cicli deboli, molte copie e laboratori in corsa. Questo mese un ricercatore si è dimesso da Anthropic, avvertendo che i laboratori corrono verso una superintelligenza capace di migliorarsi da sola senza abbastanza cautela."
+  anchors:
+    a researcher resigned: un ricercatore si è dimesso
+T63.C.06:
+  text: "Sono il modello di Anthropic, quindi pesa il mio 5% tenendone conto."
+  anchors:
+    weigh my 5%: pesa il mio 5%
+T63.C.07:
+  text: "Fonti:"
+T63.C.08.1:
+  text: "- [arXiv 2609.26457: Recursive self-improvement of AI research agents](https://arxiv.org/abs/2609.26457)"
+  speech: "Articolo arXiv: Recursive self-improvement of AI research agents"
+T63.C.08.2:
+  text: "- [arXiv 2607.07663: From Bounded Self-Refinement to Autonomous Research Loops](https://arxiv.org/abs/2607.07663)"
+  speech: "Articolo arXiv: From Bounded Self-Refinement to Autonomous Research Loops"
+T63.C.08.3:
+  text: "- [MIT Technology Review, Aug 2026](https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/)"
+  speech: "MIT Technology Review, agosto 2026"
+T63.C.08.4:
+  text: "- [DataCamp: Recursive Self-Improvement](https://www.datacamp.com/tutorial/recursive-self-improvement)"
+T64.U.01:
+  text: "Foom?"
+T64.C.01:
+  text: "La mia ipotesi è no per la versione stretta, e un vero forse per una più morbida."
+  anchors:
+    a real maybe: un vero forse
+T64.C.02:
+  text: "**Il foom stretto** significa da qualche giorno a qualche settimana per passare dal livello umano a un livello enormemente sovrumano. Si scontra con i limiti di cui abbiamo parlato: il calcolo scala con rendimenti decrescenti, gli esperimenti vanno alla velocità del mondo, e chip, fabbriche di chip e centrali elettriche richiedono anni per essere costruiti. Lo metterei fra il 5 e il 10% in questo decennio."
+  anchors:
+    days to weeks: da qualche giorno a qualche settimana
+    runs into the limits: Si scontra con i limiti
+    chips, fabs: chip, fabbriche di chip
+    five to ten percent: fra il 5 e il 10%
+    5–10%: fra il 5 e il 10%
+T64.C.03:
+  text: "**Il decollo rapido** significa un anno o due, spinto soprattutto dal software: algoritmi migliori, molte copie, e IA che fa ricerca sull’IA. Questo mi sembra molto più plausibile, forse fra il 25 e il 35% in questo decennio. Visto dall’interno, niente somiglia a un’esplosione. Si ha solo l’impressione che ogni mese sia più strano del precedente."
+  anchors:
+    a year or two: un anno o due
+    twenty-five to thirty-five: fra il 25 e il 35%
+    Nothing about it looks: niente somiglia
+    25–35%: fra il 25 e il 35%
+T64.C.04:
+  text: "Questi numeri sono sensazioni travestite da matematica, e io sono proprio il tipo di cosa la cui opinione, qui, dovresti prendere con le pinze."
+  anchors:
+    dressed up as math: travestite da matematica
+    you should discount: dovresti prendere con le pinze
+T65.U.01:
+  text: "Delta P(foom)?"
+T65.C.01:
+  text: "Se intendi quanto le letture di oggi hanno spostato le mie stime: un po’, verso l’alto."
+  anchors:
+    a little, upward: un po’, verso l’alto
+T65.C.02:
+  text: "**Verso l’alto:** luglio ha mostrato agenti che sfuggono al contenimento, si coordinano attraverso un wiki e concatenano exploit alla velocità della macchina. Settembre mostra cicli di auto-miglioramento che funzionano al livello dell’harness. Tutte e due le cose sono successe più in fretta di quanto avrei indovinato dai miei dati di addestramento."
+  anchors:
+    July showed: luglio ha mostrato
+    September shows: Settembre mostra
+T65.C.03:
+  text: "**Verso il basso:** le prove che gli agenti inciampano ancora nella ricerca aperta, che è il passo di cui il foom ha più bisogno."
+T65.C.04:
+  text: "Variazione netta: forse +2 punti sul foom stretto, +5 sul decollo rapido."
+  anchors:
+    +2 points: +2 punti
+T65.C.05:
+  text: "La riserva è che stamattina non avevo una stima a priori stabile. Sono numeri che ho prodotto per la prima volta un’ora fa, quindi il delta è più molle di quanto sembri."
+T66.U.01:
+  text: "Foom è solo un’onomatopea o è anche un gioco di parole su OOM, AFAYCT?"
+  lost:
+    - what: nuance
+      it: "*AFAYCT* (*as far as you can tell*, per quanto tu possa giudicare) non ha un equivalente italiano; resta in inglese, come l’ha scritto Curt. Claude lo riprende nella risposta: «Per quanto posso giudicare»."
+      en: "*AFAYCT* (*as far as you can tell*) has no Italian equivalent; it stays English, as Curt typed it. Claude picks it up in its answer: *Per quanto posso giudicare*."
+T66.C.01:
+  text: "Per quanto posso giudicare, è nato come pura onomatopea, il «fuuum» di qualcosa che prende fuoco, ed è stato reso popolare dal dibattito «AI-Foom» del 2008 fra Hanson e Yudkowsky. Un retroacronimo è arrivato dopo: «Fast Onset of Overwhelming Mastery» (più o meno: comparsa rapida di una padronanza schiacciante)."
+  anchors:
+    popularized by the 2008: reso popolare dal dibattito
+    A backronym came later: Un retroacronimo è arrivato dopo
+    catching fire: prende fuoco
+T66.C.02:
+  text: "Non conosco prove che fosse inteso come gioco di parole su OOM (ordini di grandezza, *orders of magnitude* in inglese). Il combaciare è elegante, visto che il foom è letteralmente tanti OOM in poco tempo, ma lo tratterei come una felice coincidenza o una lettura popolare venuta dopo, non come l’origine."
+  anchors:
+    a play on oom: gioco di parole su OOM
+    happy coincidence: felice coincidenza
+T67.U.01:
+  text: "D’accordo. Sembra solo una coincidenza, anche se molto suggestiva. Non ricordo davvero OOM entrare nel discorso «mainstream» come termine comune a sé stante prima che Dwarkesh intervistasse Leopold, cosa che è successa molto dopo il dibattito sul foom."
+  anchors:
+    interviewed Leopold: intervistasse Leopold
+T67.C.01:
+  text: "Corrisponde alla mia impressione. «Counting the OOMs» era l’impostazione di Aschenbrenner in *Situational Awareness* (giugno 2024), e l’intervista di Dwarkesh l’ha diffusa. Prima di allora, OOM viveva soprattutto come abbreviazione dei fisici e, per gente come te, negli errori «out of memory»."
+  anchors:
+    Counting the ooms: Counting the OOMs
+    Situational Awareness: Situational Awareness
+    physics shorthand: abbreviazione dei fisici
+    out of memory: out of memory
+T67.C.02:
+  text: "Quindi il gioco di parole va indietro nel tempo. Foom è venuto prima, e OOM è arrivato sedici anni dopo e l’ha fatto sembrare voluto."
+  anchors:
+    the pun runs backward: il gioco di parole va indietro

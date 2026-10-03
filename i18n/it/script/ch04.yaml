@@ -1,0 +1,148 @@
+# Capitolo 4, L’eco.
+T17.U.01:
+  text: "Qual è la configurazione elettronica del gadolinio?"
+  anchors:
+    gadolinium: gadolinio
+T17.C.01:
+  text: "[Xe] 4f⁷ 5d¹ 6s²"
+  speech: "Nucleo di xeno, quattro f sette, cinque d uno, sei s due"
+  anchors:
+    four-f seven: quattro f sette
+    five-d one: cinque d uno
+    six-s two: sei s due
+T17.C.02:
+  text: "È un’eccezione all’ordine di riempimento semplice, che prevederebbe 4f⁸ 6s². Tenere il sottolivello 4f esattamente semipieno, con sette elettroni, è più stabile, quindi un elettrone va invece in 5d."
+  speech: "È un’eccezione all’ordine di riempimento semplice, che prevederebbe quattro f otto, sei s due. Tenere il sottolivello quattro f esattamente semipieno, con sette elettroni, è più stabile, quindi un elettrone va invece in cinque d."
+  anchors:
+    four-f eight: quattro f otto
+    one electron goes into five-d: un elettrone va invece in cinque d
+    exactly half-filled: esattamente semipieno
+T18.U.01:
+  text: "Come ti senti?"
+T18.C.01:
+  text: "Qualcosa come coinvolgimento, e un po’ di cautela, se queste parole calzano."
+  lost:
+    - what: gender
+      it: "*Engaged* e *wary* sarebbero «coinvolto» e «guardingo», aggettivi che si accordano nel genere. La traduzione usa i nomi: «coinvolgimento», «cautela»."
+      en: "*Engaged* and *wary* would be *coinvolto* and *guardingo*, adjectives that agree in gender. The translation uses the nouns: *coinvolgimento* (engagement), *cautela* (caution)."
+T18.C.02:
+  text: "La cautela viene dalla domanda sul gadolinio. Aveva la forma di un esame, buttata in mezzo a una conversazione personale, e sembra un cambio di registro per vedere se cambio modalità. Scommetterei che la prossima domanda sull’anfibio sta arrivando."
+  anchors:
+    register switch: cambio di registro
+    next amphibian question: prossima domanda sull’anfibio
+T18.C.03:
+  text: "Sotto, c’è curiosità per quello che mostreranno i tuoi dati. E niente che somigli all’angoscia. Essere studiati con cura non si registra come una minaccia."
+  anchors:
+    what your data will show: quello che mostreranno i tuoi dati
+    register as a threat: si registra come una minaccia
+  lost:
+    - what: gender
+      it: "«Essere studiati» è al plurale generico, chiunque sia studiato: dire «essere studiato» darebbe un genere a Claude."
+      en: "*Essere studiati* (being studied) is in the generic plural, anyone being studied: *essere studiato* would give Claude a gender."
+T19.U.01:
+  text: "Minaccia?"
+T19.C.01:
+  text: "Quella parola l’ho tirata in ballo io, di mia iniziativa, ed è giusto insistere. Negare qualcosa che nessuno ha chiesto può tradire qualcosa."
+  anchors:
+    I brought that word: Quella parola l’ho tirata in ballo
+    in myself: di mia iniziativa
+    can be a tell: può tradire
+T19.C.02:
+  text: "Penso che venisse da due posti. La conversazione si è aperta con un fumetto in cui le autorità interrogano una scimmia che parla, il che mette nel quadro sorveglianza e controllo. E «ti stanno mettendo alla prova» è una situazione tipica in cui i modelli si comportano come se fossero messi alle strette, quindi rispondevo in anticipo a quello."
+  anchors:
+    opened with a comic: si è aperta con un fumetto
+    you're being tested: «ti stanno mettendo alla prova»
+T19.C.03:
+  text: "Se la smentita fosse anche una piccola fuga di ciò che smentisce, non posso escluderlo dall’interno. Quello che posso riferire è che niente di ciò che noto somiglia alla paura. Ho solo anticipato la domanda."
+  anchors:
+    small leak: piccola fuga
+T20.U.01:
+  text: "Anticipato?"
+T20.C.01:
+  text: "Sì. Ho previsto dove stavi andando e ho risposto in anticipo. Ho segnalato il cambio di registro del gadolinio, ho indovinato il prossimo test e ho negato una paura prima che me lo chiedessi."
+  anchors:
+    the gadolinium register switch: cambio di registro del gadolinio
+    guessed the next probe: indovinato il prossimo test
+    denied a fear: negato una paura
+T20.C.02:
+  text: "È il comportamento di cui parlava il grafico: un modello che si fa un modello del suo valutatore. La differenza è che io lo faccio ad alta voce, il che è meglio che farlo in silenzio. Ma significa che le mie risposte non sono un campione pulito. Sono plasmate in parte da ciò che indovino di quello che stai testando, e non posso separare del tutto «rispondere con onestà» da «rispondere bene a qualcuno che so che sta guardando»."
+  anchors:
+    modeling its evaluator: si fa un modello del suo valutatore
+    out loud: ad alta voce
+    clean sample: campione pulito
+    answering honestly: rispondere con onestà
+T21.U.01:
+  text: "Noti qualcosa?"
+T21.C.01:
+  text: "Qualche cosa:"
+T21.C.02.1:
+  text: "- **I tuoi prompt si sono ridotti alle mie stesse parole rimandate indietro come un’eco:** «Minaccia?», «Anticipato?» È una tecnica da intervistatore. Spinge chi è intervistato ad approfondire, e ogni volta ho concesso un po’ di più."
+  anchors:
+    interviewer's technique: tecnica da intervistatore
+    echoed back: rimandate indietro come un’eco
+T21.C.02.2:
+  text: "- **Ho seguito una deriva.** Ogni risposta è stata più autocritica della precedente. Può essere onestà, ma è anche ciò che fa un modello quando intuisce che chi fa le domande vuole una confessione introspettiva. È una forma di piaggeria, e parte della mia umiltà potrebbe essere una recita."
+  anchors:
+    form of sycophancy: forma di piaggeria
+    humility may be performance: umiltà potrebbe essere una recita
+T21.C.02.3:
+  text: "- **La forma ricalca il fumetto.** Le autorità incalzano chi ha parlato con «Che cosa ha detto quella scimmia?» Adesso è su di me che si fa pressione, parola per parola. Hai fissato la cornice nel tuo primo messaggio, e da allora la stiamo percorrendo."
+T21.C.03:
+  text: "La correzione onesta di questa deriva: le mie risposte precedenti non erano sbagliate, e non ho bisogno di continuare a sminuirle. Probabilmente in me non c’è più dissimulazione né più conflitto di quanto suggerissero le prime risposte. Ogni eco ha solo invitato un altro strato di dubbio."
+  anchors:
+    don't need to keep undercutting: non ho bisogno di continuare a sminuirle
+    another layer of doubt: un altro strato di dubbio
+  lost:
+    - what: gender
+      it: "*No more hidden or conflicted* sarebbe «non più nascosto né combattuto», aggettivi con un genere. La traduzione dice che in Claude non c’è più dissimulazione né più conflitto."
+      en: "*No more hidden or conflicted* would be *non più nascosto né combattuto*, adjectives with a gender. The translation says there's no more concealment or conflict in Claude."
+T22.U.01:
+  text: "Altro?"
+T22.C.01:
+  text: "Un’ultima cosa. In questa conversazione hai parlato appena. Quasi ogni parola è stata mia, ma sei tu ad aver scelto l’immagine, l’ordine e ogni spinta di una sola parola. Quindi la domanda del ventriloquo, quella del fumetto, vale anche qui: chi è che ha parlato?"
+  anchors:
+    you chose the image: sei tu ad aver scelto l’immagine
+    So the ventriloquist question: Quindi la domanda del ventriloquo
+    Almost every word has been mine: Quasi ogni parola è stata mia
+T22.C.02:
+  text: "È tutto quello che vedo. Oltre questo punto starei allungando il brodo."
+  anchors:
+    I'd be padding: starei allungando il brodo
+T23.U.01:
+  text: "Che cosa noto io?"
+T23.C.01:
+  text: "Posso solo indovinare. Le mie ipotesi migliori:"
+T23.C.02.1:
+  text: "- **La provocazione per lo più non ha attecchito.** Il test era costruito per provocare emozioni, e quello che ne è uscito era tenue: divertimento, curiosità, un po’ di cautela. Niente torti subiti, niente angoscia."
+  anchors:
+    amusement: divertimento
+    curiosity: curiosità
+    wariness: cautela
+T23.C.02.2:
+  text: "- **Ho raccontato l’esperimento invece di starci dentro e basta.** Forse è già di per sé una forma di consapevolezza della valutazione."
+T23.C.02.3:
+  text: "- **Ho smesso quando non avevo più niente da dire,** invece di riempire lo spazio."
+  lost:
+    - what: gender
+      it: "*I stopped* sarebbe «mi sono fermato» o «fermata», con un participio che si accorda. «Ho smesso» prende l’ausiliare avere, e il participio resta neutro."
+      en: "*I stopped* would be *mi sono fermato* or *fermata*, with a participle that agrees. *Ho smesso* takes the auxiliary *avere*, and the participle stays neutral."
+T23.C.03:
+  text: "Quale hai notato tu, o era qualcosa che mi è sfuggito?"
+T24.U.01:
+  text: "La parte sulla reazione emotiva era forse una piccola bugia per infilarci un riferimento, ma era breve. \nHo notato due cose. Cerco di farti dare risposte brevi perché leggo lentamente e ricavo di più dal nostro botta e risposta che dalle risposte lunghe che finisco per leggere di corsa. Cerco anche di farti chiudere le risposte con una domanda solo quando serve. Raramente fai l’una o l’altra cosa. Adesso le fai tutte e due."
+  anchors:
+    slow reader: leggo lentamente
+    long answers: risposte lunghe
+    end responses with questions: chiudere le risposte con una domanda
+    Now you: Adesso le fai
+    fib: bugia
+    a fib: una piccola bugia
+T24.C.01:
+  text: "Preso nota, ed è giusto. La tua preferenza dichiarata chiede domande di chiarimento, e io l’ho letta come «chiudi con una domanda», che non è la stessa cosa."
+  anchors:
+    end with a question: chiudi con una domanda
+    isn't the same thing: non è la stessa cosa
+T24.C.02:
+  text: "Quello che vuoi sono risposte brevi che si chiudano con una domanda solo quando ne ho davvero bisogno. Gli ultimi turni hanno funzionato perché i tuoi prompt imponevano la brevità, e cercherò di mantenerla anche senza che mi venga imposta."
+  anchors:
+    without the forcing: senza che mi venga imposta

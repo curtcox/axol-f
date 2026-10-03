@@ -1,0 +1,21 @@
+# Speech-only respellings for the Italian voice, applied in order to every spoken line after markdown is stripped
+# (tools/script_lib.mjs’s autoSpeech; format as script/pronounce.yaml). They change what’s said, never what’s painted.
+# verify: true = a guess to check by ear.
+- { match: "LLMs", say: "elle elle emme" }
+- { match: "LLM", say: "elle elle emme" }
+- { match: "RLHF", say: "erre elle acca effe" }
+- { match: "T-800", say: "T ottocento" }
+- { match: "GPT-5.6", say: "G P T cinque punto sei" }
+- { match: "Opus 5.5", say: "Opus cinque punto cinque" }
+- { match: "AIDE²", say: "AIDE al quadrato", verify: true }
+- { match: "P(foom)", say: "P di fuum" }
+- { match: "Foom", say: "Fuum", verify: true }
+- { match: "foom", say: "fuum", verify: true }
+- { match: "OOMs", say: "uum", verify: true }  # Aschenbrenner says "ooms"
+- { match: "OOM", say: "uum", verify: true }
+- { match: "P≠NP", say: "P diverso da N P" }
+- { match: "2×2", say: "due per due" }
+- { match: "GAZP vs. GLUT", say: "GAZP contro GLUT", verify: true }
+- { match: "256t.org", say: "duecentocinquantasei t punto org" }
+- { match: "hashbin.org", say: "hashbin punto org" }
+- { match: "Tines", say: "Tains", verify: true }
