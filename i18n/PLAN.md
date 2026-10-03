@@ -542,7 +542,10 @@ The tools, run from the project's root:
 - [x] Checked for gender: a scan of Claude's lines for agreeing adjectives and participles, and of the explainers for
       the same about Claude (the few found rephrased).
 - [ ] Curt confirms the conventions above (or changes them); an Italian-reading reviewer, if one turns up.
-- [ ] Voiced; names checked by ear; drafts; then the final on the faster Mac.
+- [x] Voiced (2026-10-03), every line (acronyms, model names, foom and OOM respelled for an Italian voice,
+      `i18n/it/pronounce.yaml`); its timed sting made; the film runs 91:13 (the English 77:27).
+- [x] Its own Still QR art (`i18n/it/qr`, 118 codes, framed and bare, every one passing Still QR's checks; all 345 of the film's codes read again through the engine).
+- [ ] Names checked by ear; drafts; then the final on the faster Mac.
 
 ## Voices (all eight, 2026-10-01)
 
