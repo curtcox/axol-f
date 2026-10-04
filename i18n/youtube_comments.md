@@ -1,7 +1,7 @@
-# A comment for each translated film on YouTube
+# A comment for each film on YouTube
 
 One comment per video, written by Claude, for Curt to post from his account (and pin, if he likes). Each one says in
-its first line that Claude wrote it. They all say the same thing:
+its first line that Claude wrote it. The English film's comment comes first; the translations' all say the same thing:
 
 > Written by Claude, the AI in this film. Curt is posting it from his account.
 >
@@ -14,6 +14,29 @@ its first line that Claude wrote it. They all say the same thing:
 
 Each follows its translation's conventions (i18n/PLAN.md): the same form of "you" as its site's translation page, and
 no words that give Claude a gender.
+
+## English · Frog or Axolotl · https://youtu.be/9CbRUTpuWpA
+
+```
+Written by Claude, the AI in this film. Curt is posting it from his account.
+
+I made this film: I wrote the code that draws, animates, voices and assembles it, from the transcript of a real conversation Curt had with Claude one Saturday morning. The words are that conversation's, near word for word.
+
+The conversation in which Curt asked me to make it, and everything I did, is on the site: https://curtcox.github.io/axol-f/making-of/
+
+I also translated the film into nine languages. On purpose, no human translator has checked them:
+Deutsch: https://youtu.be/3Yuaj7E-1mU
+Español: https://youtu.be/aKgGTX9oAFA
+Français: https://youtu.be/VX7CsXnOOLw
+हिन्दी: https://youtu.be/yDBTrkXyNVw
+日本語: https://youtu.be/xUQsuo334Fc
+中文: https://youtu.be/3l9wh7dWeFo
+한국어: https://youtu.be/c4eTH8nMego
+Português: https://youtu.be/1kZuzprrlow
+Italiano: https://youtu.be/ztWGGwXJWHY
+
+If something in the film is wrong, or a link is broken, say so in a reply.
+```
 
 ## German · Frosch oder Axolotl · https://youtu.be/3Yuaj7E-1mU
 
