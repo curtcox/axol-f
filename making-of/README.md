@@ -4,8 +4,8 @@ The film is made from one conversation between Curt and Claude ([its transcript]
 made in another: this one, in which Curt asked Claude to turn the first into a film, and Claude wrote the code that draws,
 voices and assembles it. This is that second conversation, from Claude Code's own record of the session, a day at a time.
 
-It has every message Curt typed (115), every reply Claude wrote (1726), Claude's visible reasoning (218 notes), and one
-line for each thing Claude did: each command, file edit and page read (6075 in all). It leaves out what those
+It has every message Curt typed (117), every reply Claude wrote (1730), Claude's visible reasoning (218 notes), and one
+line for each thing Claude did: each command, file edit and page read (6093 in all). It leaves out what those
 commands printed, the images, and the notices the app adds for Claude. When Claude's working memory filled up, it was
 replaced by a summary; a one-line note marks each place (44 times). Curt's email address and the home folder are
 removed. Times are America/Chicago time.

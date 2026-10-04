@@ -6,7 +6,8 @@
 // for each thing Claude did (a command, an edit, a page read), the questions Claude asked and Curt's answers, and the
 // helper agents Claude ran, each on a page of its own. What's left out: command output, images, and the notices the app
 // adds for Claude (reminders, context summaries); a context summary shows as one line where it happened.
-// Scrubbed: Curt's email address, the home folder (→ ~), and anything shaped like an API key or token.
+// Scrubbed: Curt's email address, the home folder (→ ~), Claude's scratch folder (→ scratchpad/), Claude Code's folder
+// for the project (→ memory/, tool-results/), and anything shaped like an API key or token.
 // Output, plain Markdown (each event starts with an `#### Who · time` line, which the site's build splits on):
 //   making-of/README.md                  the index
 //   making-of/parts/YYYY-MM-DD[-N].md    the conversation, a day at a time (split near 300 KB so GitHub shows each)
@@ -23,7 +24,12 @@ if (!existsSync(DIR)) { console.log(`no Claude Code sessions for this folder her
 const sessions = args.session ? [args.session] : readdirSync(DIR).filter(f => f.endsWith('.jsonl')).map(f => f.slice(0, -6));
 
 const EMAIL = /[\w.+-]+@gmail\.com/g;
-const scrub = s => String(s).replaceAll(ROOT + '/', '').replaceAll(ROOT, '.').replaceAll(HOME, '~').replace(EMAIL, '[email]')
+// Claude's scratch folder (the app keeps it under the system's temp folder, named for the user, the project's folder and
+// the session) → scratchpad/
+const SCRATCH = /(?:\/private)?\/tmp\/claude-\d+\/[^/\s`'"]+\/[0-9a-f-]{36}\/(scratchpad|tasks)\b/g;
+// and Claude Code's own folder for this project (its memory, and long command output it set aside) → memory/, tool-results/
+const CC = /(?:~|\/Users\/[^/\s]+)\/\.claude\/projects\/[^/\s`'"]+\/(?:[0-9a-f-]{36}\/)?(memory|tool-results|subagents)\b/g;
+const scrub = s => String(s).replace(SCRATCH, '$1').replace(CC, '$1').replaceAll(ROOT + '/', '').replaceAll(ROOT, '.').replaceAll(HOME, '~').replace(EMAIL, '[email]')
   .replace(/\b(sk|pk|rk)_[A-Za-z0-9]{20,}/g, '[key]').replace(/\b(ghp|gho|ghs|github_pat)_[A-Za-z0-9_]{20,}/g, '[token]')
   .replace(/\bsk-(ant-)?[A-Za-z0-9_-]{20,}/g, '[key]').replace(/(Bearer|xi-api-key:?)\s+[A-Za-z0-9._-]{20,}/gi, '$1 [key]');
 // a line of the event's own text that looks like the split marker is pushed down a level, so it can't split the event;
