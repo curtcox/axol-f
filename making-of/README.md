@@ -4,10 +4,10 @@ The film is made from one conversation between Curt and Claude ([its transcript]
 made in another: this one, in which Curt asked Claude to turn the first into a film, and Claude wrote the code that draws,
 voices and assembles it. This is that second conversation, from Claude Code's own record of the session, a day at a time.
 
-It has every message Curt typed (73), every reply Claude wrote (949), Claude's visible reasoning (164 notes), and one
-line for each thing Claude did: each command, file edit and page read (3174 in all). It leaves out what those
+It has every message Curt typed (115), every reply Claude wrote (1726), Claude's visible reasoning (218 notes), and one
+line for each thing Claude did: each command, file edit and page read (6075 in all). It leaves out what those
 commands printed, the images, and the notices the app adds for Claude. When Claude's working memory filled up, it was
-replaced by a summary; a one-line note marks each place (25 times). Curt's email address and the home folder are
+replaced by a summary; a one-line note marks each place (44 times). Curt's email address and the home folder are
 removed. Times are America/Chicago time.
 
 Made by `npm run making-of` (tools/making_of.mjs).
@@ -20,6 +20,11 @@ Made by `npm run making-of` (tools/making_of.mjs).
 | [2](parts/2026-09-27.md) | Sunday, 27 September 2026 | 00:00 | Commit and continue. |
 | [3](parts/2026-09-28.md) | Monday, 28 September 2026 | 07:11 | Commit. Then find more places to add sounds. - Doom Debates has a ticking clock with back… |
 | [4](parts/2026-09-29.md) | Tuesday, 29 September 2026 | 07:25 | Use all of the proposed sounds. Make sure to check the levels carefully to make sure they… |
+| [5](parts/2026-09-30.md) | Wednesday, 30 September 2026 | 04:47 | The final film has a extra visual noise that isn't present in the drafts. I believe it wa… |
+| [6](parts/2026-10-01.md) | Thursday, 1 October 2026 | 00:12 | Now focus on creating making sure the Japanese translation is complete aside from voices.… |
+| [7](parts/2026-10-02.md) | Friday, 2 October 2026 | 07:35 | @"~/Downloads/2026-10-01_2226.log" There was a reported failure generating the drafts. Lo… |
+| [8](parts/2026-10-03.md) | Saturday, 3 October 2026 | 07:34 | Something is wrong with the final generation on the other machine. The draft generation w… |
+| [9](parts/2026-10-04.md) | Sunday, 4 October 2026 | 07:35 | Four more published to YouTube. Update the repo with the published URLs so that when I pu… |
 
 ## The helpers
 
